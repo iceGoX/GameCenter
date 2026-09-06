@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <FrameLayout
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:background="@drawable/bg_pistachio">
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_log_out" />
+    </FrameLayout>
+
+    <TextView
+        style="@style/GameCenter.Text.Section"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical"
+        android:text="@string/exit_title" />
+
+    <TextView
+        style="@style/GameCenter.Text.Body"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginTop="16dp"
+        android:gravity="top"
+        android:text="@string/exit_message" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/exit_stay"
+        style="@style/GameCenter.Button.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/keep_playing"
+        android:textAppearance="@style/GameCenter.Text.Button" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/exit_confirm"
+        style="@style/GameCenter.Button.Secondary"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/back_to_games"
+        android:textAppearance="@style/GameCenter.Text.Button" />
+</LinearLayout>

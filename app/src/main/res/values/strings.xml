@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">GameCenter</string>
+    <string name="lobby_description">配置你自己的游戏网站，开始下一局。</string>
+
+    <string name="gomoku">五子棋</string>
+    <string name="gomoku_description">黑白之间，来回过招。</string>
+    <string name="blokus">角斗士棋</string>
+    <string name="blokus_description">拼出你的下一步。</string>
+    <string name="game_not_configured">游戏网站尚未设置</string>
+    <string name="home_greeting">和朋友，来一局。</string>
+    <string name="home_subtitle_ready">面对面，或隔着屏幕。</string>
+    <string name="home_subtitle_empty">先设置游戏网站，准备下一局。</string>
+    <string name="home_footer_ready">一起玩，就现在。</string>
+    <string name="home_footer_empty">网站设置完成后，即可进入游戏。</string>
+    <string name="play_game">进入游戏</string>
+    <string name="configure_game">设置网站</string>
+
+    <string name="settings">设置</string>
+    <string name="settings_title">设置</string>
+    <string name="settings_intro_heading">准备好下一局</string>
+    <string name="settings_intro_subtitle">游戏网站可以分别设置，随时换回默认。</string>
+    <string name="settings_section">游戏网站</string>
+    <string name="using_default_server">使用默认网站</string>
+    <string name="using_custom_server">使用自定义网站</string>
+    <string name="server_not_configured">尚未配置网站</string>
+    <string name="settings_note_title">用自己的游戏网站</string>
+    <string name="settings_note_body">填写可信任的网站地址。
+清空自定义地址后，将恢复默认网站。</string>
+    <string name="settings_footer">GameCenter
+轻松开玩，和朋友一起。</string>
+
+    <string name="edit_title">游戏网站</string>
+    <string name="edit_intro_subtitle">使用默认网站，或填写你的自定义网站。</string>
+    <string name="edit_intro_demo_subtitle">填写你部署的可信任游戏网站。</string>
+    <string name="custom_server_label">自定义网站地址</string>
+    <string name="server_hint">https://games.example.com/wuziqi/</string>
+    <string name="server_input_hint">请填写 HTTPS 游戏网页地址。</string>
+    <string name="server_invalid_hint">请使用 HTTPS 游戏网页地址。
+不要填写账号、查询参数或片段。</string>
+    <string name="restore_default_title">想用回默认网站？</string>
+    <string name="restore_default_hint">清空上方地址并保存即可。
+已打开的游戏会在下次进入时使用新地址。</string>
+    <string name="clear_custom_title">清空自定义网站？</string>
+    <string name="clear_custom_hint">清空上方地址并保存即可。
+下次进入游戏前，需要重新设置网站。</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="back_to_games">返回大厅</string>
+    <string name="invalid_server">请输入 HTTPS 网页目录地址，可含端口，不含账号、查询参数或片段。</string>
+
+    <string name="loading_title">%1$s</string>
+    <string name="loading_heading">正在准备棋盘…</string>
+    <string name="loading_subtitle">稍等一下，马上开始。</string>
+    <string name="loading_brand">GameCenter</string>
+    <string name="load_error">游戏暂时无法加载。</string>
+    <string name="load_error_hint">请检查网络和网站地址后重试。</string>
+    <string name="retry">重新加载</string>
+
+    <string name="exit_title">先离开这一局？</string>
+    <string name="exit_message">当前页面会关闭，未保存的对局可能丢失。
+在线对局建议先在游戏内退出房间。</string>
+    <string name="keep_playing">继续游戏</string>
+</resources>

@@ -1,0 +1,59 @@
+# Machine-specific IDE and agent settings
+.idea/
+.vscode/
+.codex/
+.agents/
+.claude/
+*.iml
+.DS_Store
+._*
+
+# Gradle, Kotlin and native build caches / outputs
+.gradle/
+.kotlin/
+build/
+out/
+.externalNativeBuild/
+.cxx/
+captures/
+*.apk
+*.aab
+*.apks
+*.dex
+*.class
+*.hprof
+*.log
+
+# Local environment and distribution configuration (including backups)
+local.properties*
+store.properties*
+store.*.properties
+*.local.properties
+.env
+.env.*
+!.env.example
+!store.properties.example
+
+# Signing material and credentials
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+key.properties*
+keystore.properties*
+signing.properties*
+secrets.properties*
+credentials.json
+service-account*.json
+google-services.json
+
+# Editor temporary files and local archives
+*.swp
+*.swo
+*~
+*.bak
+*.zip
+*.tar
+*.tar.gz
