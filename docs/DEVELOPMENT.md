@@ -119,6 +119,14 @@ app/src/test/java/com/icego/gamecenter/
 
 做自己的应用：按需要修改 `applicationId`、应用名称和图标（当前正式包名已设为 `com.icego.gamecenter`）；若修改 Kotlin 包名，应同步 namespace、目录和 Manifest。签名密钥与密码不要加入源码。
 
+### 启动图标
+
+Store 和 Demo 分别使用 `app/src/store/res/drawable-nodpi/launcher_art.png` 与 `app/src/demo/res/drawable-nodpi/launcher_art.png`。Store 使用原始双人击掌图，Demo 在右上角增加大号斜放的「Demo」标识；同名资源由产品变体选择，debug/release 共用对应变体图标。
+
+两个 Manifest 图标入口共用自适应图标 XML，前景保留 21% 边距以适配启动器裁切。最低版本为 API 29，因此不再保留旧版 Android 默认图标位图。当前没有提供单色主题图标。更换图片后，应在设备启动器的圆形和圆角矩形图标下检查人物及文字是否完整、清晰。
+
+Demo 图片通过内置 imagegen 编辑生成。提示词要点：保留原图背景、人物、配色和构图，只在右上方添加深蓝底、白色粗体圆角字体的准确文字「Demo」，字号放大约 1.5 倍，角标整体顺时针倾斜约 35 度，为圆形裁切留出空间，不添加其他文字或外框。
+
 ## 5. 离线能力路线
 
 Issue #1 希望“第一次安装、完全断网也能同屏玩”，目前仍需补齐：
