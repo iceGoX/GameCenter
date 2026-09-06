@@ -23,7 +23,7 @@
 
 Demo 大厅（五子棋已进入入口、角斗士棋尚未配置）：
 
-![GameCenter Demo 大厅截图](docs/images/gamecenter-demo-home.png)
+<img src="docs/images/gamecenter-demo-home.png" alt="GameCenter Demo 大厅截图" width="320" />
 
 ## 快速开始
 
