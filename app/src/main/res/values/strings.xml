@@ -6,6 +6,14 @@
     <string name="gomoku_description">黑白之间，来回过招。</string>
     <string name="blokus">角斗士棋</string>
     <string name="blokus_description">拼出你的下一步。</string>
+    <string name="xiangqi">中国象棋</string>
+    <string name="xiangqi_description">楚河汉界，邀友一局。</string>
+    <string name="feixingqi">飞行棋</string>
+    <string name="feixingqi_description">一起，准备起飞。</string>
+    <string name="heibaiqi">黑白棋</string>
+    <string name="heibaiqi_description">落一子，换个局面。</string>
+    <string name="play_game_accessibility">进入%1$s</string>
+    <string name="configure_game_accessibility">设置%1$s网站</string>
     <string name="game_not_configured">游戏网站尚未设置</string>
     <string name="home_greeting">和朋友，来一局。</string>
     <string name="home_subtitle_ready">面对面，或隔着屏幕。</string>
@@ -33,7 +41,7 @@
     <string name="edit_intro_subtitle">使用默认网站，或填写你的自定义网站。</string>
     <string name="edit_intro_demo_subtitle">填写你部署的可信任游戏网站。</string>
     <string name="custom_server_label">自定义网站地址</string>
-    <string name="server_hint">https://games.example.com/wuziqi/</string>
+    <string name="server_hint">https://games.example.com/%1$s/</string>
     <string name="server_input_hint">请填写 HTTPS 游戏网页地址。</string>
     <string name="server_invalid_hint">请使用 HTTPS 游戏网页地址。
 不要填写账号、查询参数或片段。</string>

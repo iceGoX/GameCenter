@@ -1,0 +1,5120 @@
+{
+  "home": {
+    "name": "09 · 五款游戏大厅 · 全部内容",
+    "type": "FRAME",
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 1500,
+    "fill": "#f7f5f0",
+    "radius": 24,
+    "opacity": 1,
+    "children": [
+      {
+        "name": "home_status",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 62,
+        "fill": null,
+        "radius": 0,
+        "opacity": 1,
+        "children": [
+          {
+            "name": "9:41",
+            "type": "TEXT",
+            "x": 24,
+            "y": 19,
+            "width": 56,
+            "height": 24,
+            "fill": "#21241f",
+            "radius": 0,
+            "opacity": 1,
+            "text": "9:41",
+            "font": {
+              "family": "Inter",
+              "style": "Medium"
+            },
+            "size": 14,
+            "lineHeight": 21,
+            "align": "LEFT",
+            "children": []
+          },
+          {
+            "name": "100%",
+            "type": "TEXT",
+            "x": 314,
+            "y": 19,
+            "width": 52,
+            "height": 24,
+            "fill": "#21241f",
+            "radius": 0,
+            "opacity": 1,
+            "text": "100%",
+            "font": {
+              "family": "Inter",
+              "style": "Medium"
+            },
+            "size": 12,
+            "lineHeight": 18,
+            "align": "RIGHT",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "App content / 单列滚动区域",
+        "type": "FRAME",
+        "x": 0,
+        "y": 62,
+        "width": 390,
+        "height": 1414,
+        "fill": null,
+        "radius": 0,
+        "opacity": 1,
+        "children": [
+          {
+            "name": "Native toolbar",
+            "type": "FRAME",
+            "x": 20,
+            "y": 8,
+            "width": 350,
+            "height": 48,
+            "fill": null,
+            "radius": 0,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "home_wordmark",
+                "type": "TEXT",
+                "x": 0,
+                "y": 9,
+                "width": 302,
+                "height": 30,
+                "fill": "#21241f",
+                "radius": 0,
+                "opacity": 1,
+                "text": "GameCenter",
+                "font": {
+                  "family": "Inter",
+                  "style": "Bold"
+                },
+                "size": 19,
+                "lineHeight": 29,
+                "align": "LEFT",
+                "children": []
+              },
+              {
+                "name": "设置 / 48dp touch target",
+                "type": "FRAME",
+                "x": 302,
+                "y": 0,
+                "width": 48,
+                "height": 48,
+                "fill": null,
+                "radius": 0,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "home_settings_icon",
+                    "type": "FRAME",
+                    "x": 12,
+                    "y": 12,
+                    "width": 24,
+                    "height": 24,
+                    "fill": null,
+                    "radius": 0,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "Lucide / settings",
+                        "type": "SVG",
+                        "x": 0,
+                        "y": 0,
+                        "width": 24,
+                        "height": 24,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z\" />\n  <circle cx=\"12\" cy=\"12\" r=\"3\" />\n</svg>\n",
+                        "children": [
+                          {
+                            "name": "Ellipse",
+                            "type": "ELLIPSE",
+                            "x": 9,
+                            "y": 9,
+                            "width": 6,
+                            "height": 6,
+                            "fill": null,
+                            "radius": 0,
+                            "opacity": 1,
+                            "stroke": "#21241f",
+                            "strokeWidth": 1,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "大厅介绍",
+            "type": "FRAME",
+            "x": 20,
+            "y": 80,
+            "width": 350,
+            "height": 80,
+            "fill": null,
+            "radius": 0,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "home_greeting",
+                "type": "TEXT",
+                "x": 0,
+                "y": 0,
+                "width": 350,
+                "height": 42,
+                "fill": "#21241f",
+                "radius": 0,
+                "opacity": 1,
+                "text": "和朋友，来一局。",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Semibold"
+                },
+                "size": 28,
+                "lineHeight": 42,
+                "align": "LEFT",
+                "children": []
+              },
+              {
+                "name": "home_subtitle",
+                "type": "TEXT",
+                "x": 0,
+                "y": 50,
+                "width": 350,
+                "height": 22,
+                "fill": "#6e7366",
+                "radius": 0,
+                "opacity": 1,
+                "text": "面对面，或隔着屏幕。",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Regular"
+                },
+                "size": 14,
+                "lineHeight": 21,
+                "align": "LEFT",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "游戏列表",
+            "type": "FRAME",
+            "x": 20,
+            "y": 184,
+            "width": 350,
+            "height": 1144,
+            "fill": null,
+            "radius": 0,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "home_gomoku",
+                "type": "FRAME",
+                "x": 0,
+                "y": 0,
+                "width": 350,
+                "height": 216,
+                "fill": "#f0f2d9",
+                "radius": 24,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "Cover / gomoku-cover.png",
+                    "type": "FRAME",
+                    "x": 0,
+                    "y": 0,
+                    "width": 350,
+                    "height": 216,
+                    "fill": "#F0F2D9",
+                    "radius": 0,
+                    "opacity": 1,
+                    "asset": "gomoku-cover.png",
+                    "children": []
+                  },
+                  {
+                    "name": "五子棋",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 45,
+                    "width": 140,
+                    "height": 36,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "五子棋",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Semibold"
+                    },
+                    "size": 24,
+                    "lineHeight": 36,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "黑白之间，来回过招。",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 87,
+                    "width": 146,
+                    "height": 20,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "黑白之间，来回过招。",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Regular"
+                    },
+                    "size": 12,
+                    "lineHeight": 18,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "game_gomoku_action",
+                    "type": "FRAME",
+                    "x": 20,
+                    "y": 148,
+                    "width": 136,
+                    "height": 48,
+                    "fill": "#cced5c",
+                    "radius": 16,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "进入游戏",
+                        "type": "TEXT",
+                        "x": 14,
+                        "y": 13,
+                        "width": 72,
+                        "height": 22,
+                        "fill": "#21241f",
+                        "radius": 0,
+                        "opacity": 1,
+                        "text": "进入游戏",
+                        "font": {
+                          "family": "PingFang SC",
+                          "style": "Medium"
+                        },
+                        "size": 14,
+                        "lineHeight": 21,
+                        "align": "LEFT",
+                        "children": []
+                      },
+                      {
+                        "name": "btn_game_arrow",
+                        "type": "FRAME",
+                        "x": 104,
+                        "y": 15,
+                        "width": 18,
+                        "height": 18,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "children": [
+                          {
+                            "name": "Lucide / arrow-right",
+                            "type": "SVG",
+                            "x": 0,
+                            "y": 0,
+                            "width": 18,
+                            "height": 18,
+                            "fill": null,
+                            "radius": 0,
+                            "opacity": 1,
+                            "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M5 12h14\" />\n  <path d=\"m12 5 7 7-7 7\" />\n</svg>\n",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "home_blokus",
+                "type": "FRAME",
+                "x": 0,
+                "y": 232,
+                "width": 350,
+                "height": 216,
+                "fill": "#fff0e3",
+                "radius": 24,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "Cover / blokus-cover.png",
+                    "type": "FRAME",
+                    "x": 0,
+                    "y": 0,
+                    "width": 350,
+                    "height": 216,
+                    "fill": "#FFF0E3",
+                    "radius": 0,
+                    "opacity": 1,
+                    "asset": "blokus-cover.png",
+                    "children": []
+                  },
+                  {
+                    "name": "角斗士棋",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 45,
+                    "width": 145,
+                    "height": 36,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "角斗士棋",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Semibold"
+                    },
+                    "size": 24,
+                    "lineHeight": 36,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "拼出你的下一步。",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 87,
+                    "width": 146,
+                    "height": 20,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "拼出你的下一步。",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Regular"
+                    },
+                    "size": 12,
+                    "lineHeight": 18,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "game_blokus_action",
+                    "type": "FRAME",
+                    "x": 20,
+                    "y": 148,
+                    "width": 136,
+                    "height": 48,
+                    "fill": "#cced5c",
+                    "radius": 16,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "进入游戏",
+                        "type": "TEXT",
+                        "x": 14,
+                        "y": 13,
+                        "width": 72,
+                        "height": 22,
+                        "fill": "#21241f",
+                        "radius": 0,
+                        "opacity": 1,
+                        "text": "进入游戏",
+                        "font": {
+                          "family": "PingFang SC",
+                          "style": "Medium"
+                        },
+                        "size": 14,
+                        "lineHeight": 21,
+                        "align": "LEFT",
+                        "children": []
+                      },
+                      {
+                        "name": "btn_game_arrow",
+                        "type": "FRAME",
+                        "x": 104,
+                        "y": 15,
+                        "width": 18,
+                        "height": 18,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "children": [
+                          {
+                            "name": "Lucide / arrow-right",
+                            "type": "SVG",
+                            "x": 0,
+                            "y": 0,
+                            "width": 18,
+                            "height": 18,
+                            "fill": null,
+                            "radius": 0,
+                            "opacity": 1,
+                            "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M5 12h14\" />\n  <path d=\"m12 5 7 7-7 7\" />\n</svg>\n",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "xiangqi / 游戏卡片",
+                "type": "FRAME",
+                "x": 0,
+                "y": 464,
+                "width": 350,
+                "height": 216,
+                "fill": "#f0f2d9",
+                "radius": 24,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "xiangqi / 封面",
+                    "type": "FRAME",
+                    "x": 0,
+                    "y": 0,
+                    "width": 350,
+                    "height": 216,
+                    "fill": "#F0F2D9",
+                    "radius": 0,
+                    "opacity": 1,
+                    "asset": "xiangqi_cover.webp",
+                    "children": []
+                  },
+                  {
+                    "name": "xiangqi / 标题",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 45,
+                    "width": 180,
+                    "height": 36,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "中国象棋",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Semibold"
+                    },
+                    "size": 24,
+                    "lineHeight": 36,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "黑白之间，来回过招。",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 87,
+                    "width": 180,
+                    "height": 20,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "楚河汉界，邀友一局。",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Regular"
+                    },
+                    "size": 12,
+                    "lineHeight": 18,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "game_gomoku_action",
+                    "type": "FRAME",
+                    "x": 20,
+                    "y": 148,
+                    "width": 136,
+                    "height": 48,
+                    "fill": "#cced5c",
+                    "radius": 16,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "进入游戏",
+                        "type": "TEXT",
+                        "x": 14,
+                        "y": 13,
+                        "width": 72,
+                        "height": 22,
+                        "fill": "#21241f",
+                        "radius": 0,
+                        "opacity": 1,
+                        "text": "进入游戏",
+                        "font": {
+                          "family": "PingFang SC",
+                          "style": "Medium"
+                        },
+                        "size": 14,
+                        "lineHeight": 21,
+                        "align": "LEFT",
+                        "children": []
+                      },
+                      {
+                        "name": "btn_game_arrow",
+                        "type": "FRAME",
+                        "x": 104,
+                        "y": 15,
+                        "width": 18,
+                        "height": 18,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "children": [
+                          {
+                            "name": "Lucide / arrow-right",
+                            "type": "SVG",
+                            "x": 0,
+                            "y": 0,
+                            "width": 18,
+                            "height": 18,
+                            "fill": null,
+                            "radius": 0,
+                            "opacity": 1,
+                            "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M5 12h14\" />\n  <path d=\"m12 5 7 7-7 7\" />\n</svg>\n",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "feixingqi / 游戏卡片",
+                "type": "FRAME",
+                "x": 0,
+                "y": 696,
+                "width": 350,
+                "height": 216,
+                "fill": "#f0f2d9",
+                "radius": 24,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "feixingqi / 封面",
+                    "type": "FRAME",
+                    "x": 0,
+                    "y": 0,
+                    "width": 350,
+                    "height": 216,
+                    "fill": "#F0F2D9",
+                    "radius": 0,
+                    "opacity": 1,
+                    "asset": "feixingqi_cover.webp",
+                    "children": []
+                  },
+                  {
+                    "name": "feixingqi / 标题",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 45,
+                    "width": 180,
+                    "height": 36,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "飞行棋",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Semibold"
+                    },
+                    "size": 24,
+                    "lineHeight": 36,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "黑白之间，来回过招。",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 87,
+                    "width": 180,
+                    "height": 20,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "一起，准备起飞。",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Regular"
+                    },
+                    "size": 12,
+                    "lineHeight": 18,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "game_gomoku_action",
+                    "type": "FRAME",
+                    "x": 20,
+                    "y": 148,
+                    "width": 136,
+                    "height": 48,
+                    "fill": "#cced5c",
+                    "radius": 16,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "进入游戏",
+                        "type": "TEXT",
+                        "x": 14,
+                        "y": 13,
+                        "width": 72,
+                        "height": 22,
+                        "fill": "#21241f",
+                        "radius": 0,
+                        "opacity": 1,
+                        "text": "进入游戏",
+                        "font": {
+                          "family": "PingFang SC",
+                          "style": "Medium"
+                        },
+                        "size": 14,
+                        "lineHeight": 21,
+                        "align": "LEFT",
+                        "children": []
+                      },
+                      {
+                        "name": "btn_game_arrow",
+                        "type": "FRAME",
+                        "x": 104,
+                        "y": 15,
+                        "width": 18,
+                        "height": 18,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "children": [
+                          {
+                            "name": "Lucide / arrow-right",
+                            "type": "SVG",
+                            "x": 0,
+                            "y": 0,
+                            "width": 18,
+                            "height": 18,
+                            "fill": null,
+                            "radius": 0,
+                            "opacity": 1,
+                            "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M5 12h14\" />\n  <path d=\"m12 5 7 7-7 7\" />\n</svg>\n",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "heibaiqi / 游戏卡片",
+                "type": "FRAME",
+                "x": 0,
+                "y": 928,
+                "width": 350,
+                "height": 216,
+                "fill": "#f0f2d9",
+                "radius": 24,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "heibaiqi / 封面",
+                    "type": "FRAME",
+                    "x": 0,
+                    "y": 0,
+                    "width": 350,
+                    "height": 216,
+                    "fill": "#F0F2D9",
+                    "radius": 0,
+                    "opacity": 1,
+                    "asset": "heibaiqi_cover.webp",
+                    "children": []
+                  },
+                  {
+                    "name": "heibaiqi / 标题",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 45,
+                    "width": 180,
+                    "height": 36,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "黑白棋",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Semibold"
+                    },
+                    "size": 24,
+                    "lineHeight": 36,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "黑白之间，来回过招。",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 87,
+                    "width": 180,
+                    "height": 20,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "落一子，换个局面。",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Regular"
+                    },
+                    "size": 12,
+                    "lineHeight": 18,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "game_gomoku_action",
+                    "type": "FRAME",
+                    "x": 20,
+                    "y": 148,
+                    "width": 136,
+                    "height": 48,
+                    "fill": "#cced5c",
+                    "radius": 16,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "进入游戏",
+                        "type": "TEXT",
+                        "x": 14,
+                        "y": 13,
+                        "width": 72,
+                        "height": 22,
+                        "fill": "#21241f",
+                        "radius": 0,
+                        "opacity": 1,
+                        "text": "进入游戏",
+                        "font": {
+                          "family": "PingFang SC",
+                          "style": "Medium"
+                        },
+                        "size": 14,
+                        "lineHeight": 21,
+                        "align": "LEFT",
+                        "children": []
+                      },
+                      {
+                        "name": "btn_game_arrow",
+                        "type": "FRAME",
+                        "x": 104,
+                        "y": 15,
+                        "width": 18,
+                        "height": 18,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "children": [
+                          {
+                            "name": "Lucide / arrow-right",
+                            "type": "SVG",
+                            "x": 0,
+                            "y": 0,
+                            "width": 18,
+                            "height": 18,
+                            "fill": null,
+                            "radius": 0,
+                            "opacity": 1,
+                            "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M5 12h14\" />\n  <path d=\"m12 5 7 7-7 7\" />\n</svg>\n",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "home_footer",
+            "type": "TEXT",
+            "x": 20,
+            "y": 1352,
+            "width": 350,
+            "height": 20,
+            "fill": "#6e7366",
+            "radius": 0,
+            "opacity": 1,
+            "text": "一起玩，就现在。",
+            "font": {
+              "family": "PingFang SC",
+              "style": "Regular"
+            },
+            "size": 12,
+            "lineHeight": 18,
+            "align": "CENTER",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "home_gesture",
+        "type": "FRAME",
+        "x": 0,
+        "y": 1476,
+        "width": 390,
+        "height": 24,
+        "fill": null,
+        "radius": 0,
+        "opacity": 1,
+        "children": [
+          {
+            "name": "System gesture indicator",
+            "type": "FRAME",
+            "x": 141,
+            "y": 10,
+            "width": 108,
+            "height": 4,
+            "fill": "#6e7366",
+            "radius": 2,
+            "opacity": 1,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "empty": {
+    "name": "10 · Demo 未配置 · 全部内容",
+    "type": "FRAME",
+    "x": 450,
+    "y": 0,
+    "width": 390,
+    "height": 1500,
+    "fill": "#f7f5f0",
+    "radius": 24,
+    "opacity": 1,
+    "children": [
+      {
+        "name": "empty_status",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 62,
+        "fill": null,
+        "radius": 0,
+        "opacity": 1,
+        "children": [
+          {
+            "name": "9:41",
+            "type": "TEXT",
+            "x": 24,
+            "y": 19,
+            "width": 56,
+            "height": 24,
+            "fill": "#21241f",
+            "radius": 0,
+            "opacity": 1,
+            "text": "9:41",
+            "font": {
+              "family": "Inter",
+              "style": "Medium"
+            },
+            "size": 14,
+            "lineHeight": 21,
+            "align": "LEFT",
+            "children": []
+          },
+          {
+            "name": "100%",
+            "type": "TEXT",
+            "x": 314,
+            "y": 19,
+            "width": 52,
+            "height": 24,
+            "fill": "#21241f",
+            "radius": 0,
+            "opacity": 1,
+            "text": "100%",
+            "font": {
+              "family": "Inter",
+              "style": "Medium"
+            },
+            "size": 12,
+            "lineHeight": 18,
+            "align": "RIGHT",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "App content / 单列滚动区域",
+        "type": "FRAME",
+        "x": 0,
+        "y": 62,
+        "width": 390,
+        "height": 1414,
+        "fill": null,
+        "radius": 0,
+        "opacity": 1,
+        "children": [
+          {
+            "name": "Native toolbar",
+            "type": "FRAME",
+            "x": 20,
+            "y": 8,
+            "width": 350,
+            "height": 48,
+            "fill": null,
+            "radius": 0,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "empty_wordmark",
+                "type": "TEXT",
+                "x": 0,
+                "y": 9,
+                "width": 302,
+                "height": 30,
+                "fill": "#21241f",
+                "radius": 0,
+                "opacity": 1,
+                "text": "GameCenter",
+                "font": {
+                  "family": "Inter",
+                  "style": "Bold"
+                },
+                "size": 19,
+                "lineHeight": 29,
+                "align": "LEFT",
+                "children": []
+              },
+              {
+                "name": "设置 / 48dp touch target",
+                "type": "FRAME",
+                "x": 302,
+                "y": 0,
+                "width": 48,
+                "height": 48,
+                "fill": null,
+                "radius": 0,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "empty_settings_icon",
+                    "type": "FRAME",
+                    "x": 12,
+                    "y": 12,
+                    "width": 24,
+                    "height": 24,
+                    "fill": null,
+                    "radius": 0,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "Lucide / settings",
+                        "type": "SVG",
+                        "x": 0,
+                        "y": 0,
+                        "width": 24,
+                        "height": 24,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z\" />\n  <circle cx=\"12\" cy=\"12\" r=\"3\" />\n</svg>\n",
+                        "children": [
+                          {
+                            "name": "Ellipse",
+                            "type": "ELLIPSE",
+                            "x": 9,
+                            "y": 9,
+                            "width": 6,
+                            "height": 6,
+                            "fill": null,
+                            "radius": 0,
+                            "opacity": 1,
+                            "stroke": "#21241f",
+                            "strokeWidth": 1,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "大厅介绍",
+            "type": "FRAME",
+            "x": 20,
+            "y": 80,
+            "width": 350,
+            "height": 80,
+            "fill": null,
+            "radius": 0,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "empty_greeting",
+                "type": "TEXT",
+                "x": 0,
+                "y": 0,
+                "width": 350,
+                "height": 42,
+                "fill": "#21241f",
+                "radius": 0,
+                "opacity": 1,
+                "text": "和朋友，来一局。",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Semibold"
+                },
+                "size": 28,
+                "lineHeight": 42,
+                "align": "LEFT",
+                "children": []
+              },
+              {
+                "name": "empty_subtitle",
+                "type": "TEXT",
+                "x": 0,
+                "y": 50,
+                "width": 350,
+                "height": 22,
+                "fill": "#6e7366",
+                "radius": 0,
+                "opacity": 1,
+                "text": "先设置游戏网站，准备下一局。",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Regular"
+                },
+                "size": 14,
+                "lineHeight": 21,
+                "align": "LEFT",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "游戏列表",
+            "type": "FRAME",
+            "x": 20,
+            "y": 184,
+            "width": 350,
+            "height": 1144,
+            "fill": null,
+            "radius": 0,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "empty_gomoku",
+                "type": "FRAME",
+                "x": 0,
+                "y": 0,
+                "width": 350,
+                "height": 216,
+                "fill": "#f0f2d9",
+                "radius": 24,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "Cover / gomoku-cover.png",
+                    "type": "FRAME",
+                    "x": 0,
+                    "y": 0,
+                    "width": 350,
+                    "height": 216,
+                    "fill": "#F0F2D9",
+                    "radius": 0,
+                    "opacity": 1,
+                    "asset": "gomoku-cover.png",
+                    "children": []
+                  },
+                  {
+                    "name": "五子棋",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 45,
+                    "width": 140,
+                    "height": 36,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "五子棋",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Semibold"
+                    },
+                    "size": 24,
+                    "lineHeight": 36,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "黑白之间，来回过招。",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 87,
+                    "width": 146,
+                    "height": 20,
+                    "fill": "#6e7366",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "游戏网站尚未设置",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Regular"
+                    },
+                    "size": 12,
+                    "lineHeight": 18,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "game_gomoku_action",
+                    "type": "FRAME",
+                    "x": 20,
+                    "y": 148,
+                    "width": 136,
+                    "height": 48,
+                    "fill": "#cced5c",
+                    "radius": 16,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "进入游戏",
+                        "type": "TEXT",
+                        "x": 14,
+                        "y": 13,
+                        "width": 72,
+                        "height": 22,
+                        "fill": "#21241f",
+                        "radius": 0,
+                        "opacity": 1,
+                        "text": "设置网站",
+                        "font": {
+                          "family": "PingFang SC",
+                          "style": "Medium"
+                        },
+                        "size": 14,
+                        "lineHeight": 21,
+                        "align": "LEFT",
+                        "children": []
+                      },
+                      {
+                        "name": "btn_game_arrow",
+                        "type": "FRAME",
+                        "x": 104,
+                        "y": 15,
+                        "width": 18,
+                        "height": 18,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "children": [
+                          {
+                            "name": "Lucide / arrow-right",
+                            "type": "SVG",
+                            "x": 0,
+                            "y": 0,
+                            "width": 18,
+                            "height": 18,
+                            "fill": null,
+                            "radius": 0,
+                            "opacity": 1,
+                            "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M5 12h14\" />\n  <path d=\"m12 5 7 7-7 7\" />\n</svg>\n",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "empty_blokus",
+                "type": "FRAME",
+                "x": 0,
+                "y": 232,
+                "width": 350,
+                "height": 216,
+                "fill": "#fff0e3",
+                "radius": 24,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "Cover / blokus-cover.png",
+                    "type": "FRAME",
+                    "x": 0,
+                    "y": 0,
+                    "width": 350,
+                    "height": 216,
+                    "fill": "#FFF0E3",
+                    "radius": 0,
+                    "opacity": 1,
+                    "asset": "blokus-cover.png",
+                    "children": []
+                  },
+                  {
+                    "name": "角斗士棋",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 45,
+                    "width": 145,
+                    "height": 36,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "角斗士棋",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Semibold"
+                    },
+                    "size": 24,
+                    "lineHeight": 36,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "拼出你的下一步。",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 87,
+                    "width": 146,
+                    "height": 20,
+                    "fill": "#6e7366",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "游戏网站尚未设置",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Regular"
+                    },
+                    "size": 12,
+                    "lineHeight": 18,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "game_blokus_action",
+                    "type": "FRAME",
+                    "x": 20,
+                    "y": 148,
+                    "width": 136,
+                    "height": 48,
+                    "fill": "#cced5c",
+                    "radius": 16,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "进入游戏",
+                        "type": "TEXT",
+                        "x": 14,
+                        "y": 13,
+                        "width": 72,
+                        "height": 22,
+                        "fill": "#21241f",
+                        "radius": 0,
+                        "opacity": 1,
+                        "text": "设置网站",
+                        "font": {
+                          "family": "PingFang SC",
+                          "style": "Medium"
+                        },
+                        "size": 14,
+                        "lineHeight": 21,
+                        "align": "LEFT",
+                        "children": []
+                      },
+                      {
+                        "name": "btn_game_arrow",
+                        "type": "FRAME",
+                        "x": 104,
+                        "y": 15,
+                        "width": 18,
+                        "height": 18,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "children": [
+                          {
+                            "name": "Lucide / arrow-right",
+                            "type": "SVG",
+                            "x": 0,
+                            "y": 0,
+                            "width": 18,
+                            "height": 18,
+                            "fill": null,
+                            "radius": 0,
+                            "opacity": 1,
+                            "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M5 12h14\" />\n  <path d=\"m12 5 7 7-7 7\" />\n</svg>\n",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "xiangqi / 游戏卡片",
+                "type": "FRAME",
+                "x": 0,
+                "y": 464,
+                "width": 350,
+                "height": 216,
+                "fill": "#f0f2d9",
+                "radius": 24,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "xiangqi / 封面",
+                    "type": "FRAME",
+                    "x": 0,
+                    "y": 0,
+                    "width": 350,
+                    "height": 216,
+                    "fill": "#F0F2D9",
+                    "radius": 0,
+                    "opacity": 1,
+                    "asset": "xiangqi_cover.webp",
+                    "children": []
+                  },
+                  {
+                    "name": "xiangqi / 标题",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 45,
+                    "width": 180,
+                    "height": 36,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "中国象棋",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Semibold"
+                    },
+                    "size": 24,
+                    "lineHeight": 36,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "黑白之间，来回过招。",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 87,
+                    "width": 180,
+                    "height": 20,
+                    "fill": "#6e7366",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "游戏网站尚未设置",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Regular"
+                    },
+                    "size": 12,
+                    "lineHeight": 18,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "game_gomoku_action",
+                    "type": "FRAME",
+                    "x": 20,
+                    "y": 148,
+                    "width": 136,
+                    "height": 48,
+                    "fill": "#cced5c",
+                    "radius": 16,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "进入游戏",
+                        "type": "TEXT",
+                        "x": 14,
+                        "y": 13,
+                        "width": 72,
+                        "height": 22,
+                        "fill": "#21241f",
+                        "radius": 0,
+                        "opacity": 1,
+                        "text": "设置网站",
+                        "font": {
+                          "family": "PingFang SC",
+                          "style": "Medium"
+                        },
+                        "size": 14,
+                        "lineHeight": 21,
+                        "align": "LEFT",
+                        "children": []
+                      },
+                      {
+                        "name": "btn_game_arrow",
+                        "type": "FRAME",
+                        "x": 104,
+                        "y": 15,
+                        "width": 18,
+                        "height": 18,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "children": [
+                          {
+                            "name": "Lucide / arrow-right",
+                            "type": "SVG",
+                            "x": 0,
+                            "y": 0,
+                            "width": 18,
+                            "height": 18,
+                            "fill": null,
+                            "radius": 0,
+                            "opacity": 1,
+                            "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M5 12h14\" />\n  <path d=\"m12 5 7 7-7 7\" />\n</svg>\n",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "feixingqi / 游戏卡片",
+                "type": "FRAME",
+                "x": 0,
+                "y": 696,
+                "width": 350,
+                "height": 216,
+                "fill": "#f0f2d9",
+                "radius": 24,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "feixingqi / 封面",
+                    "type": "FRAME",
+                    "x": 0,
+                    "y": 0,
+                    "width": 350,
+                    "height": 216,
+                    "fill": "#F0F2D9",
+                    "radius": 0,
+                    "opacity": 1,
+                    "asset": "feixingqi_cover.webp",
+                    "children": []
+                  },
+                  {
+                    "name": "feixingqi / 标题",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 45,
+                    "width": 180,
+                    "height": 36,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "飞行棋",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Semibold"
+                    },
+                    "size": 24,
+                    "lineHeight": 36,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "黑白之间，来回过招。",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 87,
+                    "width": 180,
+                    "height": 20,
+                    "fill": "#6e7366",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "游戏网站尚未设置",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Regular"
+                    },
+                    "size": 12,
+                    "lineHeight": 18,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "game_gomoku_action",
+                    "type": "FRAME",
+                    "x": 20,
+                    "y": 148,
+                    "width": 136,
+                    "height": 48,
+                    "fill": "#cced5c",
+                    "radius": 16,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "进入游戏",
+                        "type": "TEXT",
+                        "x": 14,
+                        "y": 13,
+                        "width": 72,
+                        "height": 22,
+                        "fill": "#21241f",
+                        "radius": 0,
+                        "opacity": 1,
+                        "text": "设置网站",
+                        "font": {
+                          "family": "PingFang SC",
+                          "style": "Medium"
+                        },
+                        "size": 14,
+                        "lineHeight": 21,
+                        "align": "LEFT",
+                        "children": []
+                      },
+                      {
+                        "name": "btn_game_arrow",
+                        "type": "FRAME",
+                        "x": 104,
+                        "y": 15,
+                        "width": 18,
+                        "height": 18,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "children": [
+                          {
+                            "name": "Lucide / arrow-right",
+                            "type": "SVG",
+                            "x": 0,
+                            "y": 0,
+                            "width": 18,
+                            "height": 18,
+                            "fill": null,
+                            "radius": 0,
+                            "opacity": 1,
+                            "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M5 12h14\" />\n  <path d=\"m12 5 7 7-7 7\" />\n</svg>\n",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "heibaiqi / 游戏卡片",
+                "type": "FRAME",
+                "x": 0,
+                "y": 928,
+                "width": 350,
+                "height": 216,
+                "fill": "#f0f2d9",
+                "radius": 24,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "heibaiqi / 封面",
+                    "type": "FRAME",
+                    "x": 0,
+                    "y": 0,
+                    "width": 350,
+                    "height": 216,
+                    "fill": "#F0F2D9",
+                    "radius": 0,
+                    "opacity": 1,
+                    "asset": "heibaiqi_cover.webp",
+                    "children": []
+                  },
+                  {
+                    "name": "heibaiqi / 标题",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 45,
+                    "width": 180,
+                    "height": 36,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "黑白棋",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Semibold"
+                    },
+                    "size": 24,
+                    "lineHeight": 36,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "黑白之间，来回过招。",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 87,
+                    "width": 180,
+                    "height": 20,
+                    "fill": "#6e7366",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "游戏网站尚未设置",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Regular"
+                    },
+                    "size": 12,
+                    "lineHeight": 18,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "game_gomoku_action",
+                    "type": "FRAME",
+                    "x": 20,
+                    "y": 148,
+                    "width": 136,
+                    "height": 48,
+                    "fill": "#cced5c",
+                    "radius": 16,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "进入游戏",
+                        "type": "TEXT",
+                        "x": 14,
+                        "y": 13,
+                        "width": 72,
+                        "height": 22,
+                        "fill": "#21241f",
+                        "radius": 0,
+                        "opacity": 1,
+                        "text": "设置网站",
+                        "font": {
+                          "family": "PingFang SC",
+                          "style": "Medium"
+                        },
+                        "size": 14,
+                        "lineHeight": 21,
+                        "align": "LEFT",
+                        "children": []
+                      },
+                      {
+                        "name": "btn_game_arrow",
+                        "type": "FRAME",
+                        "x": 104,
+                        "y": 15,
+                        "width": 18,
+                        "height": 18,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "children": [
+                          {
+                            "name": "Lucide / arrow-right",
+                            "type": "SVG",
+                            "x": 0,
+                            "y": 0,
+                            "width": 18,
+                            "height": 18,
+                            "fill": null,
+                            "radius": 0,
+                            "opacity": 1,
+                            "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M5 12h14\" />\n  <path d=\"m12 5 7 7-7 7\" />\n</svg>\n",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "empty_footer",
+            "type": "TEXT",
+            "x": 20,
+            "y": 1352,
+            "width": 350,
+            "height": 20,
+            "fill": "#6e7366",
+            "radius": 0,
+            "opacity": 1,
+            "text": "网站设置完成后，即可进入游戏。",
+            "font": {
+              "family": "PingFang SC",
+              "style": "Regular"
+            },
+            "size": 12,
+            "lineHeight": 18,
+            "align": "CENTER",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "empty_gesture",
+        "type": "FRAME",
+        "x": 0,
+        "y": 1476,
+        "width": 390,
+        "height": 24,
+        "fill": null,
+        "radius": 0,
+        "opacity": 1,
+        "children": [
+          {
+            "name": "System gesture indicator",
+            "type": "FRAME",
+            "x": 141,
+            "y": 10,
+            "width": 108,
+            "height": 4,
+            "fill": "#6e7366",
+            "radius": 2,
+            "opacity": 1,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "settings": {
+    "name": "11 · 五款游戏网站设置 · 全部内容",
+    "type": "FRAME",
+    "x": 900,
+    "y": 0,
+    "width": 390,
+    "height": 1100,
+    "fill": "#f7f5f0",
+    "radius": 24,
+    "opacity": 1,
+    "children": [
+      {
+        "name": "settings_status",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 62,
+        "fill": null,
+        "radius": 0,
+        "opacity": 1,
+        "children": [
+          {
+            "name": "9:41",
+            "type": "TEXT",
+            "x": 24,
+            "y": 19,
+            "width": 56,
+            "height": 24,
+            "fill": "#21241f",
+            "radius": 0,
+            "opacity": 1,
+            "text": "9:41",
+            "font": {
+              "family": "Inter",
+              "style": "Medium"
+            },
+            "size": 14,
+            "lineHeight": 21,
+            "align": "LEFT",
+            "children": []
+          },
+          {
+            "name": "100%",
+            "type": "TEXT",
+            "x": 314,
+            "y": 19,
+            "width": 52,
+            "height": 24,
+            "fill": "#21241f",
+            "radius": 0,
+            "opacity": 1,
+            "text": "100%",
+            "font": {
+              "family": "Inter",
+              "style": "Medium"
+            },
+            "size": 12,
+            "lineHeight": 18,
+            "align": "RIGHT",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "App content / 单列滚动区域",
+        "type": "FRAME",
+        "x": 0,
+        "y": 62,
+        "width": 390,
+        "height": 1014,
+        "fill": null,
+        "radius": 0,
+        "opacity": 1,
+        "children": [
+          {
+            "name": "Native toolbar",
+            "type": "FRAME",
+            "x": 20,
+            "y": 8,
+            "width": 350,
+            "height": 48,
+            "fill": null,
+            "radius": 0,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "返回 / 48dp touch target",
+                "type": "FRAME",
+                "x": 0,
+                "y": 0,
+                "width": 48,
+                "height": 48,
+                "fill": null,
+                "radius": 0,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "settings_back",
+                    "type": "FRAME",
+                    "x": 12,
+                    "y": 12,
+                    "width": 24,
+                    "height": 24,
+                    "fill": null,
+                    "radius": 0,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "Lucide / arrow-left",
+                        "type": "SVG",
+                        "x": 0,
+                        "y": 0,
+                        "width": 24,
+                        "height": 24,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"m12 19-7-7 7-7\" />\n  <path d=\"M19 12H5\" />\n</svg>\n",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "settings_title",
+                "type": "TEXT",
+                "x": 48,
+                "y": 6,
+                "width": 302,
+                "height": 36,
+                "fill": "#21241f",
+                "radius": 0,
+                "opacity": 1,
+                "text": "设置",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Semibold"
+                },
+                "size": 24,
+                "lineHeight": 36,
+                "align": "LEFT",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "说明",
+            "type": "FRAME",
+            "x": 20,
+            "y": 80,
+            "width": 350,
+            "height": 83,
+            "fill": null,
+            "radius": 0,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "settings_intro_heading",
+                "type": "TEXT",
+                "x": 0,
+                "y": 0,
+                "width": 350,
+                "height": 33,
+                "fill": "#21241f",
+                "radius": 0,
+                "opacity": 1,
+                "text": "准备好下一局",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Semibold"
+                },
+                "size": 22,
+                "lineHeight": 33,
+                "align": "LEFT",
+                "children": []
+              },
+              {
+                "name": "settings_intro_subtitle",
+                "type": "TEXT",
+                "x": 0,
+                "y": 41,
+                "width": 350,
+                "height": 42,
+                "fill": "#6e7366",
+                "radius": 0,
+                "opacity": 1,
+                "text": "游戏网站可以分别设置，随时换回默认。",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Regular"
+                },
+                "size": 14,
+                "lineHeight": 21,
+                "align": "LEFT",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "游戏网站",
+            "type": "FRAME",
+            "x": 20,
+            "y": 187,
+            "width": 350,
+            "height": 542,
+            "fill": null,
+            "radius": 0,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "settings_section",
+                "type": "TEXT",
+                "x": 0,
+                "y": 0,
+                "width": 350,
+                "height": 22,
+                "fill": "#6e7366",
+                "radius": 0,
+                "opacity": 1,
+                "text": "游戏网站",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Regular"
+                },
+                "size": 14,
+                "lineHeight": 21,
+                "align": "LEFT",
+                "children": []
+              },
+              {
+                "name": "五子棋 / 设置项",
+                "type": "FRAME",
+                "x": 0,
+                "y": 34,
+                "width": 350,
+                "height": 92,
+                "fill": "#ffffff",
+                "radius": 20,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "状态图标",
+                    "type": "FRAME",
+                    "x": 16,
+                    "y": 24,
+                    "width": 44,
+                    "height": 44,
+                    "fill": "#f0f2d9",
+                    "radius": 20,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "set_badge_gomoku_icon",
+                        "type": "FRAME",
+                        "x": 8,
+                        "y": 8,
+                        "width": 28,
+                        "height": 28,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "children": [
+                          {
+                            "name": "Lucide / globe",
+                            "type": "SVG",
+                            "x": 0,
+                            "y": 0,
+                            "width": 28,
+                            "height": 28,
+                            "fill": null,
+                            "radius": 0,
+                            "opacity": 1,
+                            "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20\" />\n  <path d=\"M2 12h20\" />\n</svg>\n",
+                            "children": [
+                              {
+                                "name": "Ellipse",
+                                "type": "ELLIPSE",
+                                "x": 2.3333332538604736,
+                                "y": 2.3333332538604736,
+                                "width": 23.333335876464844,
+                                "height": 23.333335876464844,
+                                "fill": null,
+                                "radius": 0,
+                                "opacity": 1,
+                                "stroke": "#21241f",
+                                "strokeWidth": 1,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "标题与状态",
+                    "type": "FRAME",
+                    "x": 72,
+                    "y": 20,
+                    "width": 230,
+                    "height": 52,
+                    "fill": null,
+                    "radius": 0,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "set_title_gomoku",
+                        "type": "TEXT",
+                        "x": 0,
+                        "y": 0,
+                        "width": 230,
+                        "height": 24,
+                        "fill": "#21241f",
+                        "radius": 0,
+                        "opacity": 1,
+                        "text": "五子棋",
+                        "font": {
+                          "family": "PingFang SC",
+                          "style": "Medium"
+                        },
+                        "size": 16,
+                        "lineHeight": 24,
+                        "align": "LEFT",
+                        "children": []
+                      },
+                      {
+                        "name": "set_sub_gomoku",
+                        "type": "TEXT",
+                        "x": 0,
+                        "y": 28,
+                        "width": 230,
+                        "height": 20,
+                        "fill": "#6e7366",
+                        "radius": 0,
+                        "opacity": 1,
+                        "text": "使用默认网站",
+                        "font": {
+                          "family": "PingFang SC",
+                          "style": "Regular"
+                        },
+                        "size": 12,
+                        "lineHeight": 18,
+                        "align": "LEFT",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "set_arrow_gomoku",
+                    "type": "FRAME",
+                    "x": 314,
+                    "y": 36,
+                    "width": 20,
+                    "height": 20,
+                    "fill": null,
+                    "radius": 0,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "Lucide / chevron-right",
+                        "type": "SVG",
+                        "x": 0,
+                        "y": 0,
+                        "width": 20,
+                        "height": 20,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"m9 18 6-6-6-6\" />\n</svg>\n",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "角斗士棋 / 设置项",
+                "type": "FRAME",
+                "x": 0,
+                "y": 138,
+                "width": 350,
+                "height": 92,
+                "fill": "#ffffff",
+                "radius": 20,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "状态图标",
+                    "type": "FRAME",
+                    "x": 16,
+                    "y": 24,
+                    "width": 44,
+                    "height": 44,
+                    "fill": "#fff0e3",
+                    "radius": 20,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "set_badge_blokus_icon",
+                        "type": "FRAME",
+                        "x": 8,
+                        "y": 8,
+                        "width": 28,
+                        "height": 28,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "children": [
+                          {
+                            "name": "Lucide / globe",
+                            "type": "SVG",
+                            "x": 0,
+                            "y": 0,
+                            "width": 28,
+                            "height": 28,
+                            "fill": null,
+                            "radius": 0,
+                            "opacity": 1,
+                            "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20\" />\n  <path d=\"M2 12h20\" />\n</svg>\n",
+                            "children": [
+                              {
+                                "name": "Ellipse",
+                                "type": "ELLIPSE",
+                                "x": 2.3333332538604736,
+                                "y": 2.3333332538604736,
+                                "width": 23.333335876464844,
+                                "height": 23.333335876464844,
+                                "fill": null,
+                                "radius": 0,
+                                "opacity": 1,
+                                "stroke": "#21241f",
+                                "strokeWidth": 1,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "标题与状态",
+                    "type": "FRAME",
+                    "x": 72,
+                    "y": 20,
+                    "width": 230,
+                    "height": 52,
+                    "fill": null,
+                    "radius": 0,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "set_title_blokus",
+                        "type": "TEXT",
+                        "x": 0,
+                        "y": 0,
+                        "width": 230,
+                        "height": 24,
+                        "fill": "#21241f",
+                        "radius": 0,
+                        "opacity": 1,
+                        "text": "角斗士棋",
+                        "font": {
+                          "family": "PingFang SC",
+                          "style": "Medium"
+                        },
+                        "size": 16,
+                        "lineHeight": 24,
+                        "align": "LEFT",
+                        "children": []
+                      },
+                      {
+                        "name": "set_sub_blokus",
+                        "type": "TEXT",
+                        "x": 0,
+                        "y": 28,
+                        "width": 230,
+                        "height": 20,
+                        "fill": "#6e7366",
+                        "radius": 0,
+                        "opacity": 1,
+                        "text": "使用默认网站",
+                        "font": {
+                          "family": "PingFang SC",
+                          "style": "Regular"
+                        },
+                        "size": 12,
+                        "lineHeight": 18,
+                        "align": "LEFT",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "set_arrow_blokus",
+                    "type": "FRAME",
+                    "x": 314,
+                    "y": 36,
+                    "width": 20,
+                    "height": 20,
+                    "fill": null,
+                    "radius": 0,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "Lucide / chevron-right",
+                        "type": "SVG",
+                        "x": 0,
+                        "y": 0,
+                        "width": 20,
+                        "height": 20,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"m9 18 6-6-6-6\" />\n</svg>\n",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "中国象棋 / 设置项",
+                "type": "FRAME",
+                "x": 0,
+                "y": 242,
+                "width": 350,
+                "height": 92,
+                "fill": "#ffffff",
+                "radius": 20,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "状态图标",
+                    "type": "FRAME",
+                    "x": 16,
+                    "y": 24,
+                    "width": 44,
+                    "height": 44,
+                    "fill": "#F8ECD6",
+                    "radius": 20,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "set_badge_gomoku_icon",
+                        "type": "FRAME",
+                        "x": 8,
+                        "y": 8,
+                        "width": 28,
+                        "height": 28,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "children": [
+                          {
+                            "name": "Lucide / globe",
+                            "type": "SVG",
+                            "x": 0,
+                            "y": 0,
+                            "width": 28,
+                            "height": 28,
+                            "fill": null,
+                            "radius": 0,
+                            "opacity": 1,
+                            "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20\" />\n  <path d=\"M2 12h20\" />\n</svg>\n",
+                            "children": [
+                              {
+                                "name": "Ellipse",
+                                "type": "ELLIPSE",
+                                "x": 2.3333332538604736,
+                                "y": 2.3333332538604736,
+                                "width": 23.333335876464844,
+                                "height": 23.333335876464844,
+                                "fill": null,
+                                "radius": 0,
+                                "opacity": 1,
+                                "stroke": "#21241f",
+                                "strokeWidth": 1,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "标题与状态",
+                    "type": "FRAME",
+                    "x": 72,
+                    "y": 20,
+                    "width": 230,
+                    "height": 52,
+                    "fill": null,
+                    "radius": 0,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "set_title_gomoku",
+                        "type": "TEXT",
+                        "x": 0,
+                        "y": 0,
+                        "width": 230,
+                        "height": 24,
+                        "fill": "#21241f",
+                        "radius": 0,
+                        "opacity": 1,
+                        "text": "中国象棋",
+                        "font": {
+                          "family": "PingFang SC",
+                          "style": "Medium"
+                        },
+                        "size": 16,
+                        "lineHeight": 24,
+                        "align": "LEFT",
+                        "children": []
+                      },
+                      {
+                        "name": "set_sub_gomoku",
+                        "type": "TEXT",
+                        "x": 0,
+                        "y": 28,
+                        "width": 230,
+                        "height": 20,
+                        "fill": "#6e7366",
+                        "radius": 0,
+                        "opacity": 1,
+                        "text": "使用默认网站",
+                        "font": {
+                          "family": "PingFang SC",
+                          "style": "Regular"
+                        },
+                        "size": 12,
+                        "lineHeight": 18,
+                        "align": "LEFT",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "set_arrow_gomoku",
+                    "type": "FRAME",
+                    "x": 314,
+                    "y": 36,
+                    "width": 20,
+                    "height": 20,
+                    "fill": null,
+                    "radius": 0,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "Lucide / chevron-right",
+                        "type": "SVG",
+                        "x": 0,
+                        "y": 0,
+                        "width": 20,
+                        "height": 20,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"m9 18 6-6-6-6\" />\n</svg>\n",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "飞行棋 / 设置项",
+                "type": "FRAME",
+                "x": 0,
+                "y": 346,
+                "width": 350,
+                "height": 92,
+                "fill": "#ffffff",
+                "radius": 20,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "状态图标",
+                    "type": "FRAME",
+                    "x": 16,
+                    "y": 24,
+                    "width": 44,
+                    "height": 44,
+                    "fill": "#E5F3FC",
+                    "radius": 20,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "set_badge_gomoku_icon",
+                        "type": "FRAME",
+                        "x": 8,
+                        "y": 8,
+                        "width": 28,
+                        "height": 28,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "children": [
+                          {
+                            "name": "Lucide / globe",
+                            "type": "SVG",
+                            "x": 0,
+                            "y": 0,
+                            "width": 28,
+                            "height": 28,
+                            "fill": null,
+                            "radius": 0,
+                            "opacity": 1,
+                            "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20\" />\n  <path d=\"M2 12h20\" />\n</svg>\n",
+                            "children": [
+                              {
+                                "name": "Ellipse",
+                                "type": "ELLIPSE",
+                                "x": 2.3333332538604736,
+                                "y": 2.3333332538604736,
+                                "width": 23.333335876464844,
+                                "height": 23.333335876464844,
+                                "fill": null,
+                                "radius": 0,
+                                "opacity": 1,
+                                "stroke": "#21241f",
+                                "strokeWidth": 1,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "标题与状态",
+                    "type": "FRAME",
+                    "x": 72,
+                    "y": 20,
+                    "width": 230,
+                    "height": 52,
+                    "fill": null,
+                    "radius": 0,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "set_title_gomoku",
+                        "type": "TEXT",
+                        "x": 0,
+                        "y": 0,
+                        "width": 230,
+                        "height": 24,
+                        "fill": "#21241f",
+                        "radius": 0,
+                        "opacity": 1,
+                        "text": "飞行棋",
+                        "font": {
+                          "family": "PingFang SC",
+                          "style": "Medium"
+                        },
+                        "size": 16,
+                        "lineHeight": 24,
+                        "align": "LEFT",
+                        "children": []
+                      },
+                      {
+                        "name": "set_sub_gomoku",
+                        "type": "TEXT",
+                        "x": 0,
+                        "y": 28,
+                        "width": 230,
+                        "height": 20,
+                        "fill": "#6e7366",
+                        "radius": 0,
+                        "opacity": 1,
+                        "text": "使用默认网站",
+                        "font": {
+                          "family": "PingFang SC",
+                          "style": "Regular"
+                        },
+                        "size": 12,
+                        "lineHeight": 18,
+                        "align": "LEFT",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "set_arrow_gomoku",
+                    "type": "FRAME",
+                    "x": 314,
+                    "y": 36,
+                    "width": 20,
+                    "height": 20,
+                    "fill": null,
+                    "radius": 0,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "Lucide / chevron-right",
+                        "type": "SVG",
+                        "x": 0,
+                        "y": 0,
+                        "width": 20,
+                        "height": 20,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"m9 18 6-6-6-6\" />\n</svg>\n",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "黑白棋 / 设置项",
+                "type": "FRAME",
+                "x": 0,
+                "y": 450,
+                "width": 350,
+                "height": 92,
+                "fill": "#ffffff",
+                "radius": 20,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "状态图标",
+                    "type": "FRAME",
+                    "x": 16,
+                    "y": 24,
+                    "width": 44,
+                    "height": 44,
+                    "fill": "#EBF1D8",
+                    "radius": 20,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "set_badge_gomoku_icon",
+                        "type": "FRAME",
+                        "x": 8,
+                        "y": 8,
+                        "width": 28,
+                        "height": 28,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "children": [
+                          {
+                            "name": "Lucide / globe",
+                            "type": "SVG",
+                            "x": 0,
+                            "y": 0,
+                            "width": 28,
+                            "height": 28,
+                            "fill": null,
+                            "radius": 0,
+                            "opacity": 1,
+                            "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20\" />\n  <path d=\"M2 12h20\" />\n</svg>\n",
+                            "children": [
+                              {
+                                "name": "Ellipse",
+                                "type": "ELLIPSE",
+                                "x": 2.3333332538604736,
+                                "y": 2.3333332538604736,
+                                "width": 23.333335876464844,
+                                "height": 23.333335876464844,
+                                "fill": null,
+                                "radius": 0,
+                                "opacity": 1,
+                                "stroke": "#21241f",
+                                "strokeWidth": 1,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "标题与状态",
+                    "type": "FRAME",
+                    "x": 72,
+                    "y": 20,
+                    "width": 230,
+                    "height": 52,
+                    "fill": null,
+                    "radius": 0,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "set_title_gomoku",
+                        "type": "TEXT",
+                        "x": 0,
+                        "y": 0,
+                        "width": 230,
+                        "height": 24,
+                        "fill": "#21241f",
+                        "radius": 0,
+                        "opacity": 1,
+                        "text": "黑白棋",
+                        "font": {
+                          "family": "PingFang SC",
+                          "style": "Medium"
+                        },
+                        "size": 16,
+                        "lineHeight": 24,
+                        "align": "LEFT",
+                        "children": []
+                      },
+                      {
+                        "name": "set_sub_gomoku",
+                        "type": "TEXT",
+                        "x": 0,
+                        "y": 28,
+                        "width": 230,
+                        "height": 20,
+                        "fill": "#6e7366",
+                        "radius": 0,
+                        "opacity": 1,
+                        "text": "使用默认网站",
+                        "font": {
+                          "family": "PingFang SC",
+                          "style": "Regular"
+                        },
+                        "size": 12,
+                        "lineHeight": 18,
+                        "align": "LEFT",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "set_arrow_gomoku",
+                    "type": "FRAME",
+                    "x": 314,
+                    "y": 36,
+                    "width": 20,
+                    "height": 20,
+                    "fill": null,
+                    "radius": 0,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "Lucide / chevron-right",
+                        "type": "SVG",
+                        "x": 0,
+                        "y": 0,
+                        "width": 20,
+                        "height": 20,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"m9 18 6-6-6-6\" />\n</svg>\n",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "配置说明",
+            "type": "FRAME",
+            "x": 20,
+            "y": 753,
+            "width": 350,
+            "height": 116,
+            "fill": "#f0f2d9",
+            "radius": 20,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "settings_note_title",
+                "type": "TEXT",
+                "x": 20,
+                "y": 20,
+                "width": 310,
+                "height": 24,
+                "fill": "#21241f",
+                "radius": 0,
+                "opacity": 1,
+                "text": "用自己的游戏网站",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Medium"
+                },
+                "size": 16,
+                "lineHeight": 24,
+                "align": "LEFT",
+                "children": []
+              },
+              {
+                "name": "settings_note_body",
+                "type": "TEXT",
+                "x": 20,
+                "y": 52,
+                "width": 310,
+                "height": 44,
+                "fill": "#6e7366",
+                "radius": 0,
+                "opacity": 1,
+                "text": "填写可信任的网站地址。\n清空自定义地址后，将恢复默认网站。",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Regular"
+                },
+                "size": 14,
+                "lineHeight": 21,
+                "align": "LEFT",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "settings_footer",
+            "type": "TEXT",
+            "x": 20,
+            "y": 893,
+            "width": 350,
+            "height": 42,
+            "fill": "#6e7366",
+            "radius": 0,
+            "opacity": 1,
+            "text": "GameCenter\n轻松开玩，和朋友一起。",
+            "font": {
+              "family": "PingFang SC",
+              "style": "Regular"
+            },
+            "size": 12,
+            "lineHeight": 18,
+            "align": "CENTER",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "settings_gesture",
+        "type": "FRAME",
+        "x": 0,
+        "y": 1076,
+        "width": 390,
+        "height": 24,
+        "fill": null,
+        "radius": 0,
+        "opacity": 1,
+        "children": [
+          {
+            "name": "System gesture indicator",
+            "type": "FRAME",
+            "x": 141,
+            "y": 10,
+            "width": 108,
+            "height": 4,
+            "fill": "#6e7366",
+            "radius": 2,
+            "opacity": 1,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "xiangqi_edit": {
+    "name": "12 · 中国象棋 · 网站编辑",
+    "type": "FRAME",
+    "x": 0,
+    "y": 1600,
+    "width": 390,
+    "height": 844,
+    "fill": "#f7f5f0",
+    "radius": 24,
+    "opacity": 1,
+    "children": [
+      {
+        "name": "edit_status",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 62,
+        "fill": null,
+        "radius": 0,
+        "opacity": 1,
+        "children": [
+          {
+            "name": "9:41",
+            "type": "TEXT",
+            "x": 24,
+            "y": 19,
+            "width": 56,
+            "height": 24,
+            "fill": "#21241f",
+            "radius": 0,
+            "opacity": 1,
+            "text": "9:41",
+            "font": {
+              "family": "Inter",
+              "style": "Medium"
+            },
+            "size": 14,
+            "lineHeight": 21,
+            "align": "LEFT",
+            "children": []
+          },
+          {
+            "name": "100%",
+            "type": "TEXT",
+            "x": 314,
+            "y": 19,
+            "width": 52,
+            "height": 24,
+            "fill": "#21241f",
+            "radius": 0,
+            "opacity": 1,
+            "text": "100%",
+            "font": {
+              "family": "Inter",
+              "style": "Medium"
+            },
+            "size": 12,
+            "lineHeight": 18,
+            "align": "RIGHT",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "App content / 单列滚动区域",
+        "type": "FRAME",
+        "x": 0,
+        "y": 62,
+        "width": 390,
+        "height": 758,
+        "fill": null,
+        "radius": 0,
+        "opacity": 1,
+        "children": [
+          {
+            "name": "Native toolbar",
+            "type": "FRAME",
+            "x": 20,
+            "y": 8,
+            "width": 350,
+            "height": 48,
+            "fill": null,
+            "radius": 0,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "返回 / 48dp touch target",
+                "type": "FRAME",
+                "x": 0,
+                "y": 0,
+                "width": 48,
+                "height": 48,
+                "fill": null,
+                "radius": 0,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "edit_back",
+                    "type": "FRAME",
+                    "x": 12,
+                    "y": 12,
+                    "width": 24,
+                    "height": 24,
+                    "fill": null,
+                    "radius": 0,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "Lucide / arrow-left",
+                        "type": "SVG",
+                        "x": 0,
+                        "y": 0,
+                        "width": 24,
+                        "height": 24,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"m12 19-7-7 7-7\" />\n  <path d=\"M19 12H5\" />\n</svg>\n",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "edit_title",
+                "type": "TEXT",
+                "x": 48,
+                "y": 6,
+                "width": 302,
+                "height": 36,
+                "fill": "#21241f",
+                "radius": 0,
+                "opacity": 1,
+                "text": "游戏网站",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Semibold"
+                },
+                "size": 24,
+                "lineHeight": 36,
+                "align": "LEFT",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "说明",
+            "type": "FRAME",
+            "x": 20,
+            "y": 80,
+            "width": 350,
+            "height": 83,
+            "fill": null,
+            "radius": 0,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "edit_intro_heading",
+                "type": "TEXT",
+                "x": 0,
+                "y": 0,
+                "width": 350,
+                "height": 33,
+                "fill": "#21241f",
+                "radius": 0,
+                "opacity": 1,
+                "text": "中国象棋",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Semibold"
+                },
+                "size": 22,
+                "lineHeight": 33,
+                "align": "LEFT",
+                "children": []
+              },
+              {
+                "name": "edit_intro_subtitle",
+                "type": "TEXT",
+                "x": 0,
+                "y": 41,
+                "width": 350,
+                "height": 42,
+                "fill": "#6e7366",
+                "radius": 0,
+                "opacity": 1,
+                "text": "使用默认网站，或填写你的自定义网站。",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Regular"
+                },
+                "size": 14,
+                "lineHeight": 21,
+                "align": "LEFT",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "地址表单",
+            "type": "FRAME",
+            "x": 20,
+            "y": 187,
+            "width": 350,
+            "height": 196,
+            "fill": "#ffffff",
+            "radius": 24,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "edit_label",
+                "type": "TEXT",
+                "x": 20,
+                "y": 20,
+                "width": 310,
+                "height": 22,
+                "fill": "#21241f",
+                "radius": 0,
+                "opacity": 1,
+                "text": "自定义网站地址",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Medium"
+                },
+                "size": 14,
+                "lineHeight": 21,
+                "align": "LEFT",
+                "children": []
+              },
+              {
+                "name": "HTTPS 地址输入框",
+                "type": "FRAME",
+                "x": 20,
+                "y": 54,
+                "width": 310,
+                "height": 90,
+                "fill": "#f7f5f0",
+                "radius": 14,
+                "opacity": 1,
+                "stroke": "#cced5c",
+                "strokeWidth": 1.5,
+                "children": [
+                  {
+                    "name": "edit_value",
+                    "type": "TEXT",
+                    "x": 14,
+                    "y": 23,
+                    "width": 282,
+                    "height": 44,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "https://games.example.com/\nxiangqi/",
+                    "font": {
+                      "family": "Inter",
+                      "style": "Regular"
+                    },
+                    "size": 14,
+                    "lineHeight": 21,
+                    "align": "LEFT",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "edit_hint",
+                "type": "TEXT",
+                "x": 20,
+                "y": 156,
+                "width": 310,
+                "height": 20,
+                "fill": "#6e7366",
+                "radius": 0,
+                "opacity": 1,
+                "text": "请填写 HTTPS 游戏网页地址。",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Regular"
+                },
+                "size": 12,
+                "lineHeight": 18,
+                "align": "LEFT",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "恢复默认说明",
+            "type": "FRAME",
+            "x": 20,
+            "y": 407,
+            "width": 350,
+            "height": 76,
+            "fill": null,
+            "radius": 0,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "edit_default_title",
+                "type": "TEXT",
+                "x": 0,
+                "y": 0,
+                "width": 350,
+                "height": 24,
+                "fill": "#21241f",
+                "radius": 0,
+                "opacity": 1,
+                "text": "想用回默认网站？",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Medium"
+                },
+                "size": 16,
+                "lineHeight": 24,
+                "align": "LEFT",
+                "children": []
+              },
+              {
+                "name": "edit_default_hint",
+                "type": "TEXT",
+                "x": 0,
+                "y": 32,
+                "width": 350,
+                "height": 44,
+                "fill": "#6e7366",
+                "radius": 0,
+                "opacity": 1,
+                "text": "清空上方地址并保存即可。\n已打开的游戏会在下次进入时使用新地址。",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Regular"
+                },
+                "size": 14,
+                "lineHeight": 21,
+                "align": "LEFT",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "表单操作",
+            "type": "FRAME",
+            "x": 20,
+            "y": 507,
+            "width": 350,
+            "height": 116,
+            "fill": null,
+            "radius": 0,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "edit_save",
+                "type": "FRAME",
+                "x": 0,
+                "y": 0,
+                "width": 350,
+                "height": 52,
+                "fill": "#cced5c",
+                "radius": 16,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "保存",
+                    "type": "TEXT",
+                    "x": 12,
+                    "y": 14,
+                    "width": 326,
+                    "height": 24,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "保存",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Semibold"
+                    },
+                    "size": 16,
+                    "lineHeight": 24,
+                    "align": "CENTER",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "edit_cancel",
+                "type": "FRAME",
+                "x": 0,
+                "y": 64,
+                "width": 350,
+                "height": 52,
+                "fill": "#ffffff",
+                "radius": 16,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "返回大厅",
+                    "type": "TEXT",
+                    "x": 12,
+                    "y": 14,
+                    "width": 326,
+                    "height": 24,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "取消",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Medium"
+                    },
+                    "size": 16,
+                    "lineHeight": 24,
+                    "align": "CENTER",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "edit_gesture",
+        "type": "FRAME",
+        "x": 0,
+        "y": 820,
+        "width": 390,
+        "height": 24,
+        "fill": null,
+        "radius": 0,
+        "opacity": 1,
+        "children": [
+          {
+            "name": "System gesture indicator",
+            "type": "FRAME",
+            "x": 141,
+            "y": 10,
+            "width": 108,
+            "height": 4,
+            "fill": "#6e7366",
+            "radius": 2,
+            "opacity": 1,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "feixingqi_edit": {
+    "name": "13 · 飞行棋 · 网站编辑",
+    "type": "FRAME",
+    "x": 450,
+    "y": 1600,
+    "width": 390,
+    "height": 844,
+    "fill": "#f7f5f0",
+    "radius": 24,
+    "opacity": 1,
+    "children": [
+      {
+        "name": "edit_status",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 62,
+        "fill": null,
+        "radius": 0,
+        "opacity": 1,
+        "children": [
+          {
+            "name": "9:41",
+            "type": "TEXT",
+            "x": 24,
+            "y": 19,
+            "width": 56,
+            "height": 24,
+            "fill": "#21241f",
+            "radius": 0,
+            "opacity": 1,
+            "text": "9:41",
+            "font": {
+              "family": "Inter",
+              "style": "Medium"
+            },
+            "size": 14,
+            "lineHeight": 21,
+            "align": "LEFT",
+            "children": []
+          },
+          {
+            "name": "100%",
+            "type": "TEXT",
+            "x": 314,
+            "y": 19,
+            "width": 52,
+            "height": 24,
+            "fill": "#21241f",
+            "radius": 0,
+            "opacity": 1,
+            "text": "100%",
+            "font": {
+              "family": "Inter",
+              "style": "Medium"
+            },
+            "size": 12,
+            "lineHeight": 18,
+            "align": "RIGHT",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "App content / 单列滚动区域",
+        "type": "FRAME",
+        "x": 0,
+        "y": 62,
+        "width": 390,
+        "height": 758,
+        "fill": null,
+        "radius": 0,
+        "opacity": 1,
+        "children": [
+          {
+            "name": "Native toolbar",
+            "type": "FRAME",
+            "x": 20,
+            "y": 8,
+            "width": 350,
+            "height": 48,
+            "fill": null,
+            "radius": 0,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "返回 / 48dp touch target",
+                "type": "FRAME",
+                "x": 0,
+                "y": 0,
+                "width": 48,
+                "height": 48,
+                "fill": null,
+                "radius": 0,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "edit_back",
+                    "type": "FRAME",
+                    "x": 12,
+                    "y": 12,
+                    "width": 24,
+                    "height": 24,
+                    "fill": null,
+                    "radius": 0,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "Lucide / arrow-left",
+                        "type": "SVG",
+                        "x": 0,
+                        "y": 0,
+                        "width": 24,
+                        "height": 24,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"m12 19-7-7 7-7\" />\n  <path d=\"M19 12H5\" />\n</svg>\n",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "edit_title",
+                "type": "TEXT",
+                "x": 48,
+                "y": 6,
+                "width": 302,
+                "height": 36,
+                "fill": "#21241f",
+                "radius": 0,
+                "opacity": 1,
+                "text": "游戏网站",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Semibold"
+                },
+                "size": 24,
+                "lineHeight": 36,
+                "align": "LEFT",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "说明",
+            "type": "FRAME",
+            "x": 20,
+            "y": 80,
+            "width": 350,
+            "height": 83,
+            "fill": null,
+            "radius": 0,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "edit_intro_heading",
+                "type": "TEXT",
+                "x": 0,
+                "y": 0,
+                "width": 350,
+                "height": 33,
+                "fill": "#21241f",
+                "radius": 0,
+                "opacity": 1,
+                "text": "飞行棋",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Semibold"
+                },
+                "size": 22,
+                "lineHeight": 33,
+                "align": "LEFT",
+                "children": []
+              },
+              {
+                "name": "edit_intro_subtitle",
+                "type": "TEXT",
+                "x": 0,
+                "y": 41,
+                "width": 350,
+                "height": 42,
+                "fill": "#6e7366",
+                "radius": 0,
+                "opacity": 1,
+                "text": "使用默认网站，或填写你的自定义网站。",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Regular"
+                },
+                "size": 14,
+                "lineHeight": 21,
+                "align": "LEFT",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "地址表单",
+            "type": "FRAME",
+            "x": 20,
+            "y": 187,
+            "width": 350,
+            "height": 196,
+            "fill": "#ffffff",
+            "radius": 24,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "edit_label",
+                "type": "TEXT",
+                "x": 20,
+                "y": 20,
+                "width": 310,
+                "height": 22,
+                "fill": "#21241f",
+                "radius": 0,
+                "opacity": 1,
+                "text": "自定义网站地址",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Medium"
+                },
+                "size": 14,
+                "lineHeight": 21,
+                "align": "LEFT",
+                "children": []
+              },
+              {
+                "name": "HTTPS 地址输入框",
+                "type": "FRAME",
+                "x": 20,
+                "y": 54,
+                "width": 310,
+                "height": 90,
+                "fill": "#f7f5f0",
+                "radius": 14,
+                "opacity": 1,
+                "stroke": "#cced5c",
+                "strokeWidth": 1.5,
+                "children": [
+                  {
+                    "name": "edit_value",
+                    "type": "TEXT",
+                    "x": 14,
+                    "y": 23,
+                    "width": 282,
+                    "height": 44,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "https://games.example.com/\nfeixingqi/",
+                    "font": {
+                      "family": "Inter",
+                      "style": "Regular"
+                    },
+                    "size": 14,
+                    "lineHeight": 21,
+                    "align": "LEFT",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "edit_hint",
+                "type": "TEXT",
+                "x": 20,
+                "y": 156,
+                "width": 310,
+                "height": 20,
+                "fill": "#6e7366",
+                "radius": 0,
+                "opacity": 1,
+                "text": "请填写 HTTPS 游戏网页地址。",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Regular"
+                },
+                "size": 12,
+                "lineHeight": 18,
+                "align": "LEFT",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "恢复默认说明",
+            "type": "FRAME",
+            "x": 20,
+            "y": 407,
+            "width": 350,
+            "height": 76,
+            "fill": null,
+            "radius": 0,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "edit_default_title",
+                "type": "TEXT",
+                "x": 0,
+                "y": 0,
+                "width": 350,
+                "height": 24,
+                "fill": "#21241f",
+                "radius": 0,
+                "opacity": 1,
+                "text": "想用回默认网站？",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Medium"
+                },
+                "size": 16,
+                "lineHeight": 24,
+                "align": "LEFT",
+                "children": []
+              },
+              {
+                "name": "edit_default_hint",
+                "type": "TEXT",
+                "x": 0,
+                "y": 32,
+                "width": 350,
+                "height": 44,
+                "fill": "#6e7366",
+                "radius": 0,
+                "opacity": 1,
+                "text": "清空上方地址并保存即可。\n已打开的游戏会在下次进入时使用新地址。",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Regular"
+                },
+                "size": 14,
+                "lineHeight": 21,
+                "align": "LEFT",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "表单操作",
+            "type": "FRAME",
+            "x": 20,
+            "y": 507,
+            "width": 350,
+            "height": 116,
+            "fill": null,
+            "radius": 0,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "edit_save",
+                "type": "FRAME",
+                "x": 0,
+                "y": 0,
+                "width": 350,
+                "height": 52,
+                "fill": "#cced5c",
+                "radius": 16,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "保存",
+                    "type": "TEXT",
+                    "x": 12,
+                    "y": 14,
+                    "width": 326,
+                    "height": 24,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "保存",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Semibold"
+                    },
+                    "size": 16,
+                    "lineHeight": 24,
+                    "align": "CENTER",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "edit_cancel",
+                "type": "FRAME",
+                "x": 0,
+                "y": 64,
+                "width": 350,
+                "height": 52,
+                "fill": "#ffffff",
+                "radius": 16,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "返回大厅",
+                    "type": "TEXT",
+                    "x": 12,
+                    "y": 14,
+                    "width": 326,
+                    "height": 24,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "取消",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Medium"
+                    },
+                    "size": 16,
+                    "lineHeight": 24,
+                    "align": "CENTER",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "edit_gesture",
+        "type": "FRAME",
+        "x": 0,
+        "y": 820,
+        "width": 390,
+        "height": 24,
+        "fill": null,
+        "radius": 0,
+        "opacity": 1,
+        "children": [
+          {
+            "name": "System gesture indicator",
+            "type": "FRAME",
+            "x": 141,
+            "y": 10,
+            "width": 108,
+            "height": 4,
+            "fill": "#6e7366",
+            "radius": 2,
+            "opacity": 1,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "heibaiqi_edit": {
+    "name": "14 · 黑白棋 · 网站编辑",
+    "type": "FRAME",
+    "x": 900,
+    "y": 1600,
+    "width": 390,
+    "height": 844,
+    "fill": "#f7f5f0",
+    "radius": 24,
+    "opacity": 1,
+    "children": [
+      {
+        "name": "edit_status",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 62,
+        "fill": null,
+        "radius": 0,
+        "opacity": 1,
+        "children": [
+          {
+            "name": "9:41",
+            "type": "TEXT",
+            "x": 24,
+            "y": 19,
+            "width": 56,
+            "height": 24,
+            "fill": "#21241f",
+            "radius": 0,
+            "opacity": 1,
+            "text": "9:41",
+            "font": {
+              "family": "Inter",
+              "style": "Medium"
+            },
+            "size": 14,
+            "lineHeight": 21,
+            "align": "LEFT",
+            "children": []
+          },
+          {
+            "name": "100%",
+            "type": "TEXT",
+            "x": 314,
+            "y": 19,
+            "width": 52,
+            "height": 24,
+            "fill": "#21241f",
+            "radius": 0,
+            "opacity": 1,
+            "text": "100%",
+            "font": {
+              "family": "Inter",
+              "style": "Medium"
+            },
+            "size": 12,
+            "lineHeight": 18,
+            "align": "RIGHT",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "App content / 单列滚动区域",
+        "type": "FRAME",
+        "x": 0,
+        "y": 62,
+        "width": 390,
+        "height": 758,
+        "fill": null,
+        "radius": 0,
+        "opacity": 1,
+        "children": [
+          {
+            "name": "Native toolbar",
+            "type": "FRAME",
+            "x": 20,
+            "y": 8,
+            "width": 350,
+            "height": 48,
+            "fill": null,
+            "radius": 0,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "返回 / 48dp touch target",
+                "type": "FRAME",
+                "x": 0,
+                "y": 0,
+                "width": 48,
+                "height": 48,
+                "fill": null,
+                "radius": 0,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "edit_back",
+                    "type": "FRAME",
+                    "x": 12,
+                    "y": 12,
+                    "width": 24,
+                    "height": 24,
+                    "fill": null,
+                    "radius": 0,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "Lucide / arrow-left",
+                        "type": "SVG",
+                        "x": 0,
+                        "y": 0,
+                        "width": 24,
+                        "height": 24,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"m12 19-7-7 7-7\" />\n  <path d=\"M19 12H5\" />\n</svg>\n",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "edit_title",
+                "type": "TEXT",
+                "x": 48,
+                "y": 6,
+                "width": 302,
+                "height": 36,
+                "fill": "#21241f",
+                "radius": 0,
+                "opacity": 1,
+                "text": "游戏网站",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Semibold"
+                },
+                "size": 24,
+                "lineHeight": 36,
+                "align": "LEFT",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "说明",
+            "type": "FRAME",
+            "x": 20,
+            "y": 80,
+            "width": 350,
+            "height": 83,
+            "fill": null,
+            "radius": 0,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "edit_intro_heading",
+                "type": "TEXT",
+                "x": 0,
+                "y": 0,
+                "width": 350,
+                "height": 33,
+                "fill": "#21241f",
+                "radius": 0,
+                "opacity": 1,
+                "text": "黑白棋",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Semibold"
+                },
+                "size": 22,
+                "lineHeight": 33,
+                "align": "LEFT",
+                "children": []
+              },
+              {
+                "name": "edit_intro_subtitle",
+                "type": "TEXT",
+                "x": 0,
+                "y": 41,
+                "width": 350,
+                "height": 42,
+                "fill": "#6e7366",
+                "radius": 0,
+                "opacity": 1,
+                "text": "使用默认网站，或填写你的自定义网站。",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Regular"
+                },
+                "size": 14,
+                "lineHeight": 21,
+                "align": "LEFT",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "地址表单",
+            "type": "FRAME",
+            "x": 20,
+            "y": 187,
+            "width": 350,
+            "height": 196,
+            "fill": "#ffffff",
+            "radius": 24,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "edit_label",
+                "type": "TEXT",
+                "x": 20,
+                "y": 20,
+                "width": 310,
+                "height": 22,
+                "fill": "#21241f",
+                "radius": 0,
+                "opacity": 1,
+                "text": "自定义网站地址",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Medium"
+                },
+                "size": 14,
+                "lineHeight": 21,
+                "align": "LEFT",
+                "children": []
+              },
+              {
+                "name": "HTTPS 地址输入框",
+                "type": "FRAME",
+                "x": 20,
+                "y": 54,
+                "width": 310,
+                "height": 90,
+                "fill": "#f7f5f0",
+                "radius": 14,
+                "opacity": 1,
+                "stroke": "#cced5c",
+                "strokeWidth": 1.5,
+                "children": [
+                  {
+                    "name": "edit_value",
+                    "type": "TEXT",
+                    "x": 14,
+                    "y": 23,
+                    "width": 282,
+                    "height": 44,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "https://games.example.com/\nheibaiqi/",
+                    "font": {
+                      "family": "Inter",
+                      "style": "Regular"
+                    },
+                    "size": 14,
+                    "lineHeight": 21,
+                    "align": "LEFT",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "edit_hint",
+                "type": "TEXT",
+                "x": 20,
+                "y": 156,
+                "width": 310,
+                "height": 20,
+                "fill": "#6e7366",
+                "radius": 0,
+                "opacity": 1,
+                "text": "请填写 HTTPS 游戏网页地址。",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Regular"
+                },
+                "size": 12,
+                "lineHeight": 18,
+                "align": "LEFT",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "恢复默认说明",
+            "type": "FRAME",
+            "x": 20,
+            "y": 407,
+            "width": 350,
+            "height": 76,
+            "fill": null,
+            "radius": 0,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "edit_default_title",
+                "type": "TEXT",
+                "x": 0,
+                "y": 0,
+                "width": 350,
+                "height": 24,
+                "fill": "#21241f",
+                "radius": 0,
+                "opacity": 1,
+                "text": "想用回默认网站？",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Medium"
+                },
+                "size": 16,
+                "lineHeight": 24,
+                "align": "LEFT",
+                "children": []
+              },
+              {
+                "name": "edit_default_hint",
+                "type": "TEXT",
+                "x": 0,
+                "y": 32,
+                "width": 350,
+                "height": 44,
+                "fill": "#6e7366",
+                "radius": 0,
+                "opacity": 1,
+                "text": "清空上方地址并保存即可。\n已打开的游戏会在下次进入时使用新地址。",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Regular"
+                },
+                "size": 14,
+                "lineHeight": 21,
+                "align": "LEFT",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "表单操作",
+            "type": "FRAME",
+            "x": 20,
+            "y": 507,
+            "width": 350,
+            "height": 116,
+            "fill": null,
+            "radius": 0,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "edit_save",
+                "type": "FRAME",
+                "x": 0,
+                "y": 0,
+                "width": 350,
+                "height": 52,
+                "fill": "#cced5c",
+                "radius": 16,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "保存",
+                    "type": "TEXT",
+                    "x": 12,
+                    "y": 14,
+                    "width": 326,
+                    "height": 24,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "保存",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Semibold"
+                    },
+                    "size": 16,
+                    "lineHeight": 24,
+                    "align": "CENTER",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "edit_cancel",
+                "type": "FRAME",
+                "x": 0,
+                "y": 64,
+                "width": 350,
+                "height": 52,
+                "fill": "#ffffff",
+                "radius": 16,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "返回大厅",
+                    "type": "TEXT",
+                    "x": 12,
+                    "y": 14,
+                    "width": 326,
+                    "height": 24,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "取消",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Medium"
+                    },
+                    "size": 16,
+                    "lineHeight": 24,
+                    "align": "CENTER",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "edit_gesture",
+        "type": "FRAME",
+        "x": 0,
+        "y": 820,
+        "width": 390,
+        "height": 24,
+        "fill": null,
+        "radius": 0,
+        "opacity": 1,
+        "children": [
+          {
+            "name": "System gesture indicator",
+            "type": "FRAME",
+            "x": 141,
+            "y": 10,
+            "width": 108,
+            "height": 4,
+            "fill": "#6e7366",
+            "radius": 2,
+            "opacity": 1,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "scrolled": {
+    "name": "15 · 大厅滚动到新游戏",
+    "type": "FRAME",
+    "x": 1350,
+    "y": 0,
+    "width": 390,
+    "height": 844,
+    "fill": "#f7f5f0",
+    "radius": 24,
+    "opacity": 1,
+    "children": [
+      {
+        "name": "home_status",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 62,
+        "fill": null,
+        "radius": 0,
+        "opacity": 1,
+        "children": [
+          {
+            "name": "9:41",
+            "type": "TEXT",
+            "x": 24,
+            "y": 19,
+            "width": 56,
+            "height": 24,
+            "fill": "#21241f",
+            "radius": 0,
+            "opacity": 1,
+            "text": "9:41",
+            "font": {
+              "family": "Inter",
+              "style": "Medium"
+            },
+            "size": 14,
+            "lineHeight": 21,
+            "align": "LEFT",
+            "children": []
+          },
+          {
+            "name": "100%",
+            "type": "TEXT",
+            "x": 314,
+            "y": 19,
+            "width": 52,
+            "height": 24,
+            "fill": "#21241f",
+            "radius": 0,
+            "opacity": 1,
+            "text": "100%",
+            "font": {
+              "family": "Inter",
+              "style": "Medium"
+            },
+            "size": 12,
+            "lineHeight": 18,
+            "align": "RIGHT",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "App content / 单列滚动区域",
+        "type": "FRAME",
+        "x": 0,
+        "y": 62,
+        "width": 390,
+        "height": 758,
+        "fill": null,
+        "radius": 0,
+        "opacity": 1,
+        "children": [
+          {
+            "name": "Native toolbar",
+            "type": "FRAME",
+            "x": 20,
+            "y": -652,
+            "width": 350,
+            "height": 48,
+            "fill": null,
+            "radius": 0,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "home_wordmark",
+                "type": "TEXT",
+                "x": 0,
+                "y": 9,
+                "width": 302,
+                "height": 30,
+                "fill": "#21241f",
+                "radius": 0,
+                "opacity": 1,
+                "text": "GameCenter",
+                "font": {
+                  "family": "Inter",
+                  "style": "Bold"
+                },
+                "size": 19,
+                "lineHeight": 29,
+                "align": "LEFT",
+                "children": []
+              },
+              {
+                "name": "设置 / 48dp touch target",
+                "type": "FRAME",
+                "x": 302,
+                "y": 0,
+                "width": 48,
+                "height": 48,
+                "fill": null,
+                "radius": 0,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "home_settings_icon",
+                    "type": "FRAME",
+                    "x": 12,
+                    "y": 12,
+                    "width": 24,
+                    "height": 24,
+                    "fill": null,
+                    "radius": 0,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "Lucide / settings",
+                        "type": "SVG",
+                        "x": 0,
+                        "y": 0,
+                        "width": 24,
+                        "height": 24,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z\" />\n  <circle cx=\"12\" cy=\"12\" r=\"3\" />\n</svg>\n",
+                        "children": [
+                          {
+                            "name": "Ellipse",
+                            "type": "ELLIPSE",
+                            "x": 9,
+                            "y": 9,
+                            "width": 6,
+                            "height": 6,
+                            "fill": null,
+                            "radius": 0,
+                            "opacity": 1,
+                            "stroke": "#21241f",
+                            "strokeWidth": 1,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "大厅介绍",
+            "type": "FRAME",
+            "x": 20,
+            "y": -580,
+            "width": 350,
+            "height": 80,
+            "fill": null,
+            "radius": 0,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "home_greeting",
+                "type": "TEXT",
+                "x": 0,
+                "y": 0,
+                "width": 350,
+                "height": 42,
+                "fill": "#21241f",
+                "radius": 0,
+                "opacity": 1,
+                "text": "和朋友，来一局。",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Semibold"
+                },
+                "size": 28,
+                "lineHeight": 42,
+                "align": "LEFT",
+                "children": []
+              },
+              {
+                "name": "home_subtitle",
+                "type": "TEXT",
+                "x": 0,
+                "y": 50,
+                "width": 350,
+                "height": 22,
+                "fill": "#6e7366",
+                "radius": 0,
+                "opacity": 1,
+                "text": "面对面，或隔着屏幕。",
+                "font": {
+                  "family": "PingFang SC",
+                  "style": "Regular"
+                },
+                "size": 14,
+                "lineHeight": 21,
+                "align": "LEFT",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "游戏列表",
+            "type": "FRAME",
+            "x": 20,
+            "y": -476,
+            "width": 350,
+            "height": 1144,
+            "fill": null,
+            "radius": 0,
+            "opacity": 1,
+            "children": [
+              {
+                "name": "home_gomoku",
+                "type": "FRAME",
+                "x": 0,
+                "y": 0,
+                "width": 350,
+                "height": 216,
+                "fill": "#f0f2d9",
+                "radius": 24,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "Cover / gomoku-cover.png",
+                    "type": "FRAME",
+                    "x": 0,
+                    "y": 0,
+                    "width": 350,
+                    "height": 216,
+                    "fill": "#F0F2D9",
+                    "radius": 0,
+                    "opacity": 1,
+                    "asset": "gomoku-cover.png",
+                    "children": []
+                  },
+                  {
+                    "name": "五子棋",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 45,
+                    "width": 140,
+                    "height": 36,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "五子棋",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Semibold"
+                    },
+                    "size": 24,
+                    "lineHeight": 36,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "黑白之间，来回过招。",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 87,
+                    "width": 146,
+                    "height": 20,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "黑白之间，来回过招。",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Regular"
+                    },
+                    "size": 12,
+                    "lineHeight": 18,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "game_gomoku_action",
+                    "type": "FRAME",
+                    "x": 20,
+                    "y": 148,
+                    "width": 136,
+                    "height": 48,
+                    "fill": "#cced5c",
+                    "radius": 16,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "进入游戏",
+                        "type": "TEXT",
+                        "x": 14,
+                        "y": 13,
+                        "width": 72,
+                        "height": 22,
+                        "fill": "#21241f",
+                        "radius": 0,
+                        "opacity": 1,
+                        "text": "进入游戏",
+                        "font": {
+                          "family": "PingFang SC",
+                          "style": "Medium"
+                        },
+                        "size": 14,
+                        "lineHeight": 21,
+                        "align": "LEFT",
+                        "children": []
+                      },
+                      {
+                        "name": "btn_game_arrow",
+                        "type": "FRAME",
+                        "x": 104,
+                        "y": 15,
+                        "width": 18,
+                        "height": 18,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "children": [
+                          {
+                            "name": "Lucide / arrow-right",
+                            "type": "SVG",
+                            "x": 0,
+                            "y": 0,
+                            "width": 18,
+                            "height": 18,
+                            "fill": null,
+                            "radius": 0,
+                            "opacity": 1,
+                            "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M5 12h14\" />\n  <path d=\"m12 5 7 7-7 7\" />\n</svg>\n",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "home_blokus",
+                "type": "FRAME",
+                "x": 0,
+                "y": 232,
+                "width": 350,
+                "height": 216,
+                "fill": "#fff0e3",
+                "radius": 24,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "Cover / blokus-cover.png",
+                    "type": "FRAME",
+                    "x": 0,
+                    "y": 0,
+                    "width": 350,
+                    "height": 216,
+                    "fill": "#FFF0E3",
+                    "radius": 0,
+                    "opacity": 1,
+                    "asset": "blokus-cover.png",
+                    "children": []
+                  },
+                  {
+                    "name": "角斗士棋",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 45,
+                    "width": 145,
+                    "height": 36,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "角斗士棋",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Semibold"
+                    },
+                    "size": 24,
+                    "lineHeight": 36,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "拼出你的下一步。",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 87,
+                    "width": 146,
+                    "height": 20,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "拼出你的下一步。",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Regular"
+                    },
+                    "size": 12,
+                    "lineHeight": 18,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "game_blokus_action",
+                    "type": "FRAME",
+                    "x": 20,
+                    "y": 148,
+                    "width": 136,
+                    "height": 48,
+                    "fill": "#cced5c",
+                    "radius": 16,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "进入游戏",
+                        "type": "TEXT",
+                        "x": 14,
+                        "y": 13,
+                        "width": 72,
+                        "height": 22,
+                        "fill": "#21241f",
+                        "radius": 0,
+                        "opacity": 1,
+                        "text": "进入游戏",
+                        "font": {
+                          "family": "PingFang SC",
+                          "style": "Medium"
+                        },
+                        "size": 14,
+                        "lineHeight": 21,
+                        "align": "LEFT",
+                        "children": []
+                      },
+                      {
+                        "name": "btn_game_arrow",
+                        "type": "FRAME",
+                        "x": 104,
+                        "y": 15,
+                        "width": 18,
+                        "height": 18,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "children": [
+                          {
+                            "name": "Lucide / arrow-right",
+                            "type": "SVG",
+                            "x": 0,
+                            "y": 0,
+                            "width": 18,
+                            "height": 18,
+                            "fill": null,
+                            "radius": 0,
+                            "opacity": 1,
+                            "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M5 12h14\" />\n  <path d=\"m12 5 7 7-7 7\" />\n</svg>\n",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "xiangqi / 游戏卡片",
+                "type": "FRAME",
+                "x": 0,
+                "y": 464,
+                "width": 350,
+                "height": 216,
+                "fill": "#f0f2d9",
+                "radius": 24,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "xiangqi / 封面",
+                    "type": "FRAME",
+                    "x": 0,
+                    "y": 0,
+                    "width": 350,
+                    "height": 216,
+                    "fill": "#F0F2D9",
+                    "radius": 0,
+                    "opacity": 1,
+                    "asset": "xiangqi_cover.webp",
+                    "children": []
+                  },
+                  {
+                    "name": "xiangqi / 标题",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 45,
+                    "width": 180,
+                    "height": 36,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "中国象棋",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Semibold"
+                    },
+                    "size": 24,
+                    "lineHeight": 36,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "黑白之间，来回过招。",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 87,
+                    "width": 180,
+                    "height": 20,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "楚河汉界，邀友一局。",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Regular"
+                    },
+                    "size": 12,
+                    "lineHeight": 18,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "game_gomoku_action",
+                    "type": "FRAME",
+                    "x": 20,
+                    "y": 148,
+                    "width": 136,
+                    "height": 48,
+                    "fill": "#cced5c",
+                    "radius": 16,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "进入游戏",
+                        "type": "TEXT",
+                        "x": 14,
+                        "y": 13,
+                        "width": 72,
+                        "height": 22,
+                        "fill": "#21241f",
+                        "radius": 0,
+                        "opacity": 1,
+                        "text": "进入游戏",
+                        "font": {
+                          "family": "PingFang SC",
+                          "style": "Medium"
+                        },
+                        "size": 14,
+                        "lineHeight": 21,
+                        "align": "LEFT",
+                        "children": []
+                      },
+                      {
+                        "name": "btn_game_arrow",
+                        "type": "FRAME",
+                        "x": 104,
+                        "y": 15,
+                        "width": 18,
+                        "height": 18,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "children": [
+                          {
+                            "name": "Lucide / arrow-right",
+                            "type": "SVG",
+                            "x": 0,
+                            "y": 0,
+                            "width": 18,
+                            "height": 18,
+                            "fill": null,
+                            "radius": 0,
+                            "opacity": 1,
+                            "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M5 12h14\" />\n  <path d=\"m12 5 7 7-7 7\" />\n</svg>\n",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "feixingqi / 游戏卡片",
+                "type": "FRAME",
+                "x": 0,
+                "y": 696,
+                "width": 350,
+                "height": 216,
+                "fill": "#f0f2d9",
+                "radius": 24,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "feixingqi / 封面",
+                    "type": "FRAME",
+                    "x": 0,
+                    "y": 0,
+                    "width": 350,
+                    "height": 216,
+                    "fill": "#F0F2D9",
+                    "radius": 0,
+                    "opacity": 1,
+                    "asset": "feixingqi_cover.webp",
+                    "children": []
+                  },
+                  {
+                    "name": "feixingqi / 标题",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 45,
+                    "width": 180,
+                    "height": 36,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "飞行棋",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Semibold"
+                    },
+                    "size": 24,
+                    "lineHeight": 36,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "黑白之间，来回过招。",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 87,
+                    "width": 180,
+                    "height": 20,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "一起，准备起飞。",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Regular"
+                    },
+                    "size": 12,
+                    "lineHeight": 18,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "game_gomoku_action",
+                    "type": "FRAME",
+                    "x": 20,
+                    "y": 148,
+                    "width": 136,
+                    "height": 48,
+                    "fill": "#cced5c",
+                    "radius": 16,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "进入游戏",
+                        "type": "TEXT",
+                        "x": 14,
+                        "y": 13,
+                        "width": 72,
+                        "height": 22,
+                        "fill": "#21241f",
+                        "radius": 0,
+                        "opacity": 1,
+                        "text": "进入游戏",
+                        "font": {
+                          "family": "PingFang SC",
+                          "style": "Medium"
+                        },
+                        "size": 14,
+                        "lineHeight": 21,
+                        "align": "LEFT",
+                        "children": []
+                      },
+                      {
+                        "name": "btn_game_arrow",
+                        "type": "FRAME",
+                        "x": 104,
+                        "y": 15,
+                        "width": 18,
+                        "height": 18,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "children": [
+                          {
+                            "name": "Lucide / arrow-right",
+                            "type": "SVG",
+                            "x": 0,
+                            "y": 0,
+                            "width": 18,
+                            "height": 18,
+                            "fill": null,
+                            "radius": 0,
+                            "opacity": 1,
+                            "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M5 12h14\" />\n  <path d=\"m12 5 7 7-7 7\" />\n</svg>\n",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "heibaiqi / 游戏卡片",
+                "type": "FRAME",
+                "x": 0,
+                "y": 928,
+                "width": 350,
+                "height": 216,
+                "fill": "#f0f2d9",
+                "radius": 24,
+                "opacity": 1,
+                "children": [
+                  {
+                    "name": "heibaiqi / 封面",
+                    "type": "FRAME",
+                    "x": 0,
+                    "y": 0,
+                    "width": 350,
+                    "height": 216,
+                    "fill": "#F0F2D9",
+                    "radius": 0,
+                    "opacity": 1,
+                    "asset": "heibaiqi_cover.webp",
+                    "children": []
+                  },
+                  {
+                    "name": "heibaiqi / 标题",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 45,
+                    "width": 180,
+                    "height": 36,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "黑白棋",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Semibold"
+                    },
+                    "size": 24,
+                    "lineHeight": 36,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "黑白之间，来回过招。",
+                    "type": "TEXT",
+                    "x": 20,
+                    "y": 87,
+                    "width": 180,
+                    "height": 20,
+                    "fill": "#21241f",
+                    "radius": 0,
+                    "opacity": 1,
+                    "text": "落一子，换个局面。",
+                    "font": {
+                      "family": "PingFang SC",
+                      "style": "Regular"
+                    },
+                    "size": 12,
+                    "lineHeight": 18,
+                    "align": "LEFT",
+                    "children": []
+                  },
+                  {
+                    "name": "game_gomoku_action",
+                    "type": "FRAME",
+                    "x": 20,
+                    "y": 148,
+                    "width": 136,
+                    "height": 48,
+                    "fill": "#cced5c",
+                    "radius": 16,
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "name": "进入游戏",
+                        "type": "TEXT",
+                        "x": 14,
+                        "y": 13,
+                        "width": 72,
+                        "height": 22,
+                        "fill": "#21241f",
+                        "radius": 0,
+                        "opacity": 1,
+                        "text": "进入游戏",
+                        "font": {
+                          "family": "PingFang SC",
+                          "style": "Medium"
+                        },
+                        "size": 14,
+                        "lineHeight": 21,
+                        "align": "LEFT",
+                        "children": []
+                      },
+                      {
+                        "name": "btn_game_arrow",
+                        "type": "FRAME",
+                        "x": 104,
+                        "y": 15,
+                        "width": 18,
+                        "height": 18,
+                        "fill": null,
+                        "radius": 0,
+                        "opacity": 1,
+                        "children": [
+                          {
+                            "name": "Lucide / arrow-right",
+                            "type": "SVG",
+                            "x": 0,
+                            "y": 0,
+                            "width": 18,
+                            "height": 18,
+                            "fill": null,
+                            "radius": 0,
+                            "opacity": 1,
+                            "svg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"#21241F\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M5 12h14\" />\n  <path d=\"m12 5 7 7-7 7\" />\n</svg>\n",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "home_footer",
+            "type": "TEXT",
+            "x": 20,
+            "y": 692,
+            "width": 350,
+            "height": 20,
+            "fill": "#6e7366",
+            "radius": 0,
+            "opacity": 1,
+            "text": "一起玩，就现在。",
+            "font": {
+              "family": "PingFang SC",
+              "style": "Regular"
+            },
+            "size": 12,
+            "lineHeight": 18,
+            "align": "CENTER",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "home_gesture",
+        "type": "FRAME",
+        "x": 0,
+        "y": 820,
+        "width": 390,
+        "height": 24,
+        "fill": null,
+        "radius": 0,
+        "opacity": 1,
+        "children": [
+          {
+            "name": "System gesture indicator",
+            "type": "FRAME",
+            "x": 141,
+            "y": 10,
+            "width": 108,
+            "height": 4,
+            "fill": "#6e7366",
+            "radius": 2,
+            "opacity": 1,
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+}

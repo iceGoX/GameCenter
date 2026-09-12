@@ -56,7 +56,7 @@ class SettingsActivity : AppCompatActivity() {
             row.findViewById<TextView>(R.id.server_game_title).setText(game.title)
             row.findViewById<TextView>(R.id.server_status).text = statusFor(game)
             row.findViewById<FrameLayout>(R.id.server_badge).setBackgroundResource(
-                if (game == Game.GOMOKU) R.drawable.bg_pistachio else R.drawable.bg_peach
+                game.badge
             )
             row.setOnClickListener {
                 startActivity(Intent(this, ServerActivity::class.java)

@@ -7,15 +7,23 @@ import androidx.annotation.StringRes
 enum class Game(
     @get:StringRes val title: Int,
     @get:StringRes val description: Int,
-    @get:DrawableRes val cover: Int
+    @get:DrawableRes val cover: Int,
+    @get:DrawableRes val badge: Int,
+    val directory: String
 ) {
-    GOMOKU(R.string.gomoku, R.string.gomoku_description, R.drawable.gomoku_cover),
-    BLOKUS(R.string.blokus, R.string.blokus_description, R.drawable.blokus_cover);
+    GOMOKU(R.string.gomoku, R.string.gomoku_description, R.drawable.gomoku_cover, R.drawable.bg_pistachio, "wuziqi"),
+    BLOKUS(R.string.blokus, R.string.blokus_description, R.drawable.blokus_cover, R.drawable.bg_peach, "blokus"),
+    XIANGQI(R.string.xiangqi, R.string.xiangqi_description, R.drawable.xiangqi_cover, R.drawable.bg_sand, "xiangqi"),
+    FEIXINGQI(R.string.feixingqi, R.string.feixingqi_description, R.drawable.feixingqi_cover, R.drawable.bg_sky, "feixingqi"),
+    HEIBAIQI(R.string.heibaiqi, R.string.heibaiqi_description, R.drawable.heibaiqi_cover, R.drawable.bg_mint, "heibaiqi");
 
     val defaultServer: GameServer?
         get() = GameServer.parse(when (this) {
             GOMOKU -> BuildConfig.DEFAULT_GOMOKU_URL
             BLOKUS -> BuildConfig.DEFAULT_BLOKUS_URL
+            XIANGQI -> BuildConfig.DEFAULT_XIANGQI_URL
+            FEIXINGQI -> BuildConfig.DEFAULT_FEIXINGQI_URL
+            HEIBAIQI -> BuildConfig.DEFAULT_HEIBAIQI_URL
         })
 
     companion object {

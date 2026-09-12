@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showGames() {
-        val configured = Game.entries.all { settings.serverFor(it) != null }
+        val configured = Game.entries.any { settings.serverFor(it) != null }
         findViewById<TextView>(R.id.home_subtitle).setText(
             if (configured) R.string.home_subtitle_ready else R.string.home_subtitle_empty
         )
@@ -74,7 +74,8 @@ class MainActivity : AppCompatActivity() {
             )
             card.findViewById<View>(R.id.game_action).apply {
                 contentDescription = getString(
-                    if (server == null) R.string.configure_game else R.string.play_game
+                    if (server == null) R.string.configure_game_accessibility else R.string.play_game_accessibility,
+                    getString(game.title)
                 )
                 setOnClickListener {
                     if (server == null) openServerEditor(game) else openGame(game)

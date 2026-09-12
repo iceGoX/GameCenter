@@ -19,9 +19,17 @@
 
 包名不同，两版可以共存且配置相互独立。debug/release 是另一维度，分别控制调试和发布构建。
 
+当前大厅收录五子棋、角斗士棋、中国象棋、飞行棋和黑白棋。每款游戏独立配置网站，继续复用同一 WebView 容器。
+
+## 设计预览
+
+新增中国象棋、飞行棋、黑白棋的 Pixso 设计（非设备截图），完整说明见 [五款游戏设计](docs/design/README.md)。
+
+<img src="docs/design/five-games-preview.png" alt="三款新增游戏的 Pixso 设计" width="320" />
+
 ## 界面截图
 
-Demo 大厅（五子棋已进入入口、角斗士棋尚未配置）：
+原两款游戏版 Demo 大厅（历史设备截图；五款游戏设计见 [设计说明](docs/design/README.md)）：
 
 <img src="docs/images/gamecenter-demo-home.png" alt="GameCenter Demo 大厅截图" width="320" />
 
@@ -32,7 +40,10 @@ Demo 大厅（五子棋已进入入口、角斗士棋尚未配置）：
 3. 点击某个游戏的“配置网站”，输入完整网页目录地址，例如：
    - 五子棋：`https://games.example.com/wuziqi/`
    - Blokus：`https://games.example.com/blokus/`
-4. 保存后点击“开始游戏”。两款游戏可使用不同域名、端口；同一联机房间的玩家必须连接同一套游戏服务。
+   - 中国象棋：`https://games.example.com/xiangqi/`
+   - 飞行棋：`https://games.example.com/feixingqi/`
+   - 黑白棋：`https://games.example.com/heibaiqi/`
+4. 保存后点击“开始游戏”。五款游戏可使用不同域名、端口；同一联机房间的玩家必须连接同一套游戏服务。
 
 以上域名仅为占位示例。输入的是网页入口，不是 `/api/`。Demo 清空输入并保存可移除配置；未配置时不能进入该游戏。商店版清空自定义地址会恢复默认。
 
@@ -40,11 +51,11 @@ Demo 大厅（五子棋已进入入口、角斗士棋尚未配置）：
 
 ```sh
 cp store.properties.example store.properties
-# 将 store.properties 中的两个占位 URL 改为自己的 HTTPS 游戏目录地址
+# 将 store.properties 中的五个占位 URL 改为自己的 HTTPS 游戏目录地址
 ./gradlew :app:assembleStoreDebug
 ```
 
-`store.properties` 已加入 `.gitignore`。两个地址均须为 HTTPS、以 `/` 结尾；缺失或非法时商店版构建失败，Demo 不受影响。更换配置文件可传 `-PstoreConfigFile=/path/to/config.properties`。
+`store.properties` 已加入 `.gitignore`。五个地址均须为 HTTPS、以 `/` 结尾；缺失或非法时商店版构建失败，Demo 不受影响。更换配置文件可传 `-PstoreConfigFile=/path/to/config.properties`。
 
 Store 调试 APK 在 `app/build/outputs/apk/store/debug/app-store-debug.apk`。正式 AAB 使用 `./gradlew :app:bundleStoreRelease`，输出在 `app/build/outputs/bundle/storeRelease/`；当前未配置正式签名，不可直接作为已签名成品提交商店。域名会进入商店安装包，不是秘密。
 

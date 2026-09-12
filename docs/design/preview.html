@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GameCenter · 五款游戏设计</title>
+<style>
+*{box-sizing:border-box}body{margin:0;padding:32px;background:#eae8e2;color:#21241f;font-family:Arial,"PingFang SC",sans-serif}header{margin-bottom:28px}h1{font-size:26px;margin:0 0 10px}p{color:#62685b;line-height:1.6}nav{display:flex;gap:12px;margin:20px 0}button{border:0;border-radius:12px;padding:12px 20px;cursor:pointer;background:#fff;font:inherit}button[aria-pressed=true]{background:#cced5c}main{display:flex;flex-wrap:wrap;gap:36px;align-items:flex-start}article h2{font-size:16px;font-weight:500;max-width:390px}section{position:relative;overflow:hidden}.layer{position:absolute;overflow:hidden}.text{white-space:pre-wrap;overflow:hidden}.cover{width:100%;height:100%;object-fit:cover}.icon svg{width:100%;height:100%;display:block}footer{margin-top:30px;font-size:13px;color:#62685b}
+</style>
+</head>
+<body>
+<header><h1>GameCenter · 明亮潮玩</h1><p>沿用原生安卓设计，新增中国象棋、飞行棋、黑白棋。长画板展示完整滚动内容；系统区域在 App 中跟随实际 Insets。</p><nav><button id="current" aria-pressed="true">五款游戏</button><button id="legacy" aria-pressed="false">迁移前 · 原始八个状态与规范</button></nav></header>
+<main></main><footer>这里是设计预览。游戏棋盘、房间与对局由网页提供；完整离线首启尚未实现。</footer>
+<script>
+const asset=n=>'../../app/src/main/res/drawable-nodpi/'+n.replace('gomoku-cover.png','gomoku_cover.png').replace('blokus-cover.png','blokus_cover.png');
+function layer(n,root=false){const el=document.createElement(root?'section':'div');el.className='layer';if(root){el.style.position='relative';el.style.flexShrink=0}el.dataset.name=n.name;Object.assign(el.style,{left:(root?0:n.x)+'px',top:(root?0:n.y)+'px',width:n.width+'px',height:n.height+'px',background:n.fill||'transparent',borderRadius:n.radius+'px',opacity:n.opacity});if(n.stroke)el.style.border=n.strokeWidth+'px solid '+n.stroke;if(n.asset){const img=document.createElement('img');img.src=asset(n.asset);img.className='cover';img.alt='';el.append(img);el.style.overflow='hidden'}if(n.type==='TEXT'){el.classList.add('text');el.textContent=n.text;Object.assign(el.style,{fontFamily:'"'+n.font.family+'",Arial,sans-serif',fontSize:n.size+'px',fontWeight:/Bold|Semibold|SemiBold/.test(n.font.style)?600:/Medium/.test(n.font.style)?500:400,lineHeight:n.lineHeight+'px',color:n.fill||'#21241f',background:'transparent',textAlign:n.align.toLowerCase()})}else if(n.type==='SVG'){el.classList.add('icon');el.innerHTML=n.svg}else{if(n.type==='ELLIPSE')el.style.borderRadius='50%';n.children.forEach(c=>el.append(layer(c)))}return el}
+async function show(which){const data=await (await fetch(which==='current'?'five-games-screens.json':'legacy-screens.json')).json();document.querySelector('main').replaceChildren();const selected=new URLSearchParams(location.search).get("screen");if(selected){document.querySelector("header").hidden=true;document.querySelector("footer").hidden=true;document.body.style.padding="0"}for(const [key,n] of Object.entries(data)){if(selected&&key!==selected)continue;const a=document.createElement('article'),h=document.createElement('h2');h.textContent=n.name;if(!selected)a.append(h);a.append(layer(n,true));document.querySelector('main').append(a)}document.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.id===which)))}document.querySelectorAll('button').forEach(b=>b.onclick=()=>show(b.id));show('current');
+</script>
+</body>
+</html>

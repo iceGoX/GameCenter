@@ -1,3 +1,6 @@
 # Copy to store.properties and replace with your deployed HTTPS directory URLs.
 gomokuUrl=https://games.example.com/wuziqi/
 blokusUrl=https://games.example.com/blokus/
+xiangqiUrl=https://games.example.com/xiangqi/
+feixingqiUrl=https://games.example.com/feixingqi/
+heibaiqiUrl=https://games.example.com/heibaiqi/

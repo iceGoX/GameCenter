@@ -13,14 +13,21 @@ val storeProperties = Properties().apply {
 }
 val storeGomokuUrl = storeProperties.getProperty("gomokuUrl", "").trim()
 val storeBlokusUrl = storeProperties.getProperty("blokusUrl", "").trim()
+val storeXiangqiUrl = storeProperties.getProperty("xiangqiUrl", "").trim()
+val storeFeixingqiUrl = storeProperties.getProperty("feixingqiUrl", "").trim()
+val storeHeibaiqiUrl = storeProperties.getProperty("heibaiqiUrl", "").trim()
+val storeUrls = mapOf(
+    "gomokuUrl" to storeGomokuUrl, "blokusUrl" to storeBlokusUrl,
+    "xiangqiUrl" to storeXiangqiUrl, "feixingqiUrl" to storeFeixingqiUrl,
+    "heibaiqiUrl" to storeHeibaiqiUrl
+)
 fun quoted(value: String): String = "\"" + value.replace("\\", "\\\\")
     .replace("\"", "\\\"").replace("\n", "\\n").replace("\r", "\\r").replace("\t", "\\t") + "\""
 
 val validateStoreConfig = tasks.register("validateStoreConfig") {
-    inputs.property("gomokuUrl", storeGomokuUrl)
-    inputs.property("blokusUrl", storeBlokusUrl)
+    storeUrls.forEach { (key, value) -> inputs.property(key, value) }
     doLast {
-        mapOf("gomokuUrl" to storeGomokuUrl, "blokusUrl" to storeBlokusUrl).forEach { (key, value) ->
+        storeUrls.forEach { (key, value) ->
             val uri = runCatching { URI(value) }.getOrNull()
             check(uri != null && uri.scheme.equals("https", ignoreCase = true) &&
                 !uri.host.isNullOrBlank() && uri.rawUserInfo == null &&
@@ -69,12 +76,18 @@ android {
             buildConfigField("boolean", "IS_DEMO", "true")
             buildConfigField("String", "DEFAULT_GOMOKU_URL", quoted(""))
             buildConfigField("String", "DEFAULT_BLOKUS_URL", quoted(""))
+            buildConfigField("String", "DEFAULT_XIANGQI_URL", quoted(""))
+            buildConfigField("String", "DEFAULT_FEIXINGQI_URL", quoted(""))
+            buildConfigField("String", "DEFAULT_HEIBAIQI_URL", quoted(""))
         }
         create("store") {
             dimension = "distribution"
             buildConfigField("boolean", "IS_DEMO", "false")
             buildConfigField("String", "DEFAULT_GOMOKU_URL", quoted(storeGomokuUrl))
             buildConfigField("String", "DEFAULT_BLOKUS_URL", quoted(storeBlokusUrl))
+            buildConfigField("String", "DEFAULT_XIANGQI_URL", quoted(storeXiangqiUrl))
+            buildConfigField("String", "DEFAULT_FEIXINGQI_URL", quoted(storeFeixingqiUrl))
+            buildConfigField("String", "DEFAULT_HEIBAIQI_URL", quoted(storeHeibaiqiUrl))
         }
     }
 

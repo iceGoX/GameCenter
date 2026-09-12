@@ -71,6 +71,7 @@ class ServerActivity : AppCompatActivity() {
         inputLayout = findViewById(R.id.server_input_layout)
         input = findViewById(R.id.server_input)
         hint = findViewById(R.id.server_hint)
+        input.hint = getString(R.string.server_hint, game.directory)
         input.setText(settings.customServerFor(game)?.url.orEmpty())
         input.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(text: CharSequence?, start: Int, count: Int, after: Int) = Unit

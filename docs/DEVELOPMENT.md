@@ -21,11 +21,14 @@ cp store.properties.example store.properties
 ```properties
 gomokuUrl=https://games.example.com/wuziqi/
 blokusUrl=https://games.example.com/blokus/
+xiangqiUrl=https://games.example.com/xiangqi/
+feixingqiUrl=https://games.example.com/feixingqi/
+heibaiqiUrl=https://games.example.com/heibaiqi/
 ```
 
 默认地址须为完整 HTTPS 目录地址并以 `/` 结尾，不含凭据、查询参数或片段。文件不提交 Git，也不用于隐藏域名；真实地址会进入 Store 安装包。CI 可创建临时配置并通过 `-PstoreConfigFile=/path/to/config.properties` 指定路径。
 
-`app/build.gradle.kts` 注入 `BuildConfig.IS_DEMO` 和两个默认 URL。Demo 的默认 URL 永远为空；Store 构建依赖 `validateStoreConfig`，缺失或非法配置时失败，避免发布无法游玩的空配置包。Demo 无需本地文件。
+`app/build.gradle.kts` 注入 `BuildConfig.IS_DEMO` 和五个默认 URL。Demo 的默认 URL 永远为空；Store 构建依赖 `validateStoreConfig`，缺失或非法配置时失败，避免发布无法游玩的空配置包。Demo 无需本地文件。
 
 `GameSettings.serverFor` 统一按“有效自定义地址 → 当前游戏的变体默认地址”解析。默认地址不写入 SharedPreferences，因此升级 APK 修改默认地址后，未自定义的用户会随之使用新默认值。保存了自定义地址的用户不受影响。
 
@@ -113,7 +116,7 @@ app/src/test/java/com/icego/gamecenter/
   GameServerTest.kt
 ```
 
-新增一个网页游戏：在 `Game` 枚举增加稳定的标识及字符串资源。大厅自动生成卡片，地址可直接在应用中配置，不必新建 Activity。枚举名称同时作为配置存储键，发布后不要随意重命名；确需重命名时迁移旧配置。
+新增一个网页游戏：在 `Game` 枚举增加稳定的标识、字符串、封面、设置行底色及示例目录；同步增加 Gradle 的 Demo 空值、Store 字段及校验项、`store.properties.example` 和变体测试。大厅自动生成卡片，地址可直接在应用中配置，不必新建 Activity。枚举名称同时作为配置存储键，发布后不要随意重命名；确需重命名时迁移旧配置。
 
 修改棋盘、规则、房间协议：改上游网页或服务端仓库，按其测试流程验证并部署。Android 容器不会同步或编译上游源码；当前加载的是你部署的网站。更新网页后是否立即生效由 HTTP 缓存策略决定。
 
@@ -126,6 +129,8 @@ Store 和 Demo 分别使用 `app/src/store/res/drawable-nodpi/launcher_art.png` 
 两个 Manifest 图标入口共用自适应图标 XML，前景保留 21% 边距以适配启动器裁切。最低版本为 API 29，因此不再保留旧版 Android 默认图标位图。当前没有提供单色主题图标。更换图片后，应在设备启动器的圆形和圆角矩形图标下检查人物及文字是否完整、清晰。
 
 Demo 图片通过内置 imagegen 编辑生成。提示词要点：保留原图背景、人物、配色和构图，只在右上方添加深蓝底、白色粗体圆角字体的准确文字「Demo」，字号放大约 1.5 倍，角标整体顺时针倾斜约 35 度，为圆形裁切留出空间，不添加其他文字或外框。
+
+五款游戏的原生页面设计、封面来源和可编辑稿迁移范围见 [设计说明](design/README.md)。上面的 Python 部署示例仍只描述原有 gomoku / blokus；新增三款游戏的部署与玩法能力以各自上游为准。
 
 ## 5. 离线能力路线
 
@@ -153,9 +158,9 @@ Issue #1 希望“第一次安装、完全断网也能同屏玩”，目前仍�
 
 设备验收：
 
-1. 全新安装，无任何默认网站，两个“开始游戏”按钮不可用。
-2. 分别配置自己的两个站点；杀进程重开仍显示配置。输入 HTTP、账号密码、非法地址时不保存；空值可以清除。Store 清空自定义地址后应恢复默认，两款游戏的覆盖配置相互独立。
-3. 进入五子棋完成本地落子，进入 Blokus 完成触摸预览与拖拽；分别横竖屏旋转、切后台返回。
+1. 全新安装 Demo，五款游戏均显示“设置网站”；滚动到底确认所有卡片可达。Store 五款均可进入默认网站。
+2. 分别配置自己的五个站点；杀进程重开仍显示配置。输入 HTTP、账号密码、非法地址时不保存；空值可以清除。Store 清空自定义地址后应恢复默认，五款游戏的覆盖配置相互独立。
+3. 进入五子棋完成本地落子，进入 Blokus 完成触摸预览与拖拽；再进入中国象棋、飞行棋和黑白棋，检查网页加载、返回与重试；五款游戏分别横竖屏旋转、切后台返回。
 4. 两台设备连接同一服务，完成创建/加入房间、复制邀请、对弈、断线重连及网页内退出。
 5. 测试加载失败与重试；确认 HTTPS 页面跳转仍留在游戏 WebView，其他协议不会被放行。
 6. 返回大厅有退出确认。系统回收进程后不承诺恢复 JS 内存中的单机对局；在线恢复取决于上游会话策略。

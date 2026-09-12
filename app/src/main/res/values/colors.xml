@@ -9,6 +9,9 @@
     <color name="border">#FFE0E3D6</color>
     <color name="pistachio">#FFF0F2D9</color>
     <color name="peach">#FFFFF0E3</color>
+    <color name="sand">#FFF8ECD6</color>
+    <color name="sky">#FFE5F3FC</color>
+    <color name="mint">#FFEBF1D8</color>
     <color name="error">#FFA83324</color>
     <color name="error_surface">#FFFFF0EB</color>
     <color name="disabled">#FFE0E5D6</color>
